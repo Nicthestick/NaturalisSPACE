@@ -49,6 +49,9 @@ Binaries/*
 # Builds
 Build/*
 
+#Backups
+Backup/*
+
 # Don't ignore icon files in Build
 !Build/**/*.ico
 
