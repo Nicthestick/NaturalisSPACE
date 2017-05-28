@@ -52,6 +52,10 @@ Build/*
 #Backups
 Backup/*
 
+#AutoSaves
+Saved/Autosaves/*
+Saved/EditorCooked/WindowsNoEditor/Naturalis_Level/*
+
 # Don't ignore icon files in Build
 !Build/**/*.ico
 
