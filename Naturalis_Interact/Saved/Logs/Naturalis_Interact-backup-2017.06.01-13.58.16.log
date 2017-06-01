@@ -1,0 +1,1066 @@
+﻿Log file open, 06/01/17 13:06:53
+LogInit:Display: Running engine for game: Naturalis_Interact
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-758179191) SRandInit(-758179191).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.051661
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.01-11.06.54:513][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.01-11.06.54:513][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.01-11.06.54:525][  0]LogInit: Computer: MSI_DAVE
+[2017.06.01-11.06.54:525][  0]LogInit: User: Dave
+[2017.06.01-11.06.54:525][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.06.01-11.06.54:525][  0]LogInit: High frequency timer resolution =2.825494 MHz
+[2017.06.01-11.06.54:525][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.06.01-11.06.54:525][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.01-11.06.54:525][  0]LogMemory: Process Physical Memory: 260.77 MB used, 260.77 MB peak
+[2017.06.01-11.06.54:525][  0]LogMemory: Process Virtual Memory: 261.98 MB used, 261.98 MB peak
+[2017.06.01-11.06.54:525][  0]LogMemory: Physical Memory: 3907.34 MB used,  4202.03 MB free, 8109.36 MB total
+[2017.06.01-11.06.54:525][  0]LogMemory: Virtual Memory: 621.47 MB used,  4202.03 MB free, 134217728.00 MB total
+[2017.06.01-11.06.54:586][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.06.01-11.06.55:213][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.01-11.06.55:235][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M' (Feature Level 11_0)
+[2017.06.01-11.06.55:235][  0]LogD3D11RHI:       1980/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.01-11.06.55:241][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.06.01-11.06.55:241][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.06.01-11.06.55:242][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.01-11.06.55:242][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.01-11.06.55:242][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.01-11.06.55:246][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.01-11.06.55:246][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.01-11.06.55:246][  0]LogWindows: EnumDisplayDevices:
+[2017.06.01-11.06.55:247][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.06.01-11.06.55:247][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.06.01-11.06.55:247][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.06.01-11.06.55:247][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.06.01-11.06.55:247][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M
+[2017.06.01-11.06.55:247][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.06.01-11.06.55:247][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.06.01-11.06.55:247][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.01-11.06.55:257][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize due to reason: DriverVersionNotSupported
+[2017.06.01-11.06.55:257][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.01-11.06.55:275][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.06.01-11.06.55:275][  0]LogShaderCompilers: Guid format shader working directory is -38 characters bigger than the processId version (C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Intermediate/Shaders/WorkingDirectory/3356/).
+[2017.06.01-11.06.55:275][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dave/AppData/Local/Temp/UnrealShaderWorkingDir/AB84C8944B84781C3A5E908C23A686BE/'.
+[2017.06.01-11.06.55:275][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.01-11.06.56:736][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.01-11.06.56:818][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.01-11.06.56:890][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.01-11.06.56:968][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.01-11.06.57:046][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.01-11.06.57:120][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.01-11.06.57:198][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.01-11.06.57:286][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.01-11.06.57:340][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.01-11.06.57:412][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.01-11.06.57:485][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.01-11.06.57:537][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.01-11.06.57:588][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.01-11.06.57:635][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.01-11.06.57:687][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.01-11.06.57:791][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.01-11.06.57:791][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.01-11.06.57:821][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.01-11.06.57:898][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.01-11.06.57:926][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.01-11.06.57:967][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.01-11.06.58:034][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.01-11.06.58:119][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.01-11.06.58:202][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.01-11.06.58:203][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.01-11.06.58:729][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.01-11.06.58:821][  0]LogDerivedDataCache: Loaded boot cache 0.09s 50MB C:/Users/Dave/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.01-11.06.58:821][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dave/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.06.01-11.06.58:821][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.01-11.06.58:821][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.01-11.06.58:821][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.01-11.06.58:821][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.01-11.06.58:860][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.01-11.06.58:873][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dave/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.01-11.06.58:888][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.01-11.06.58:888][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.01-11.06.58:888][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.01-11.06.59:272][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.01-11.06.59:277][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.01-11.06.59:580][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.01-11.06.59:627][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.01-11.06.59:682][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.01-11.06.59:682][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.01-11.06.59:682][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.01-11.07.00:435][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: naturalis_interact, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3522822352
+[2017.06.01-11.07.00:473][  0]LogAssetRegistry: FAssetRegistry took 0.0221 seconds to start up
+[2017.06.01-11.07.00:518][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.026688 seconds
+[2017.06.01-11.07.00:524][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.06.01-11.07.00:524][  0]LogUObjectAllocator: 7077032 out of 0 bytes used by permanent object pool.
+[2017.06.01-11.07.00:524][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.01-11.07.00:559][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.01-11.07.01:727][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.01-11.07.01:755][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.01-11.07.02:162][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.01-11.07.02:649][  0]SourceControl: Info Source control is disabled
+[2017.06.01-11.07.02:722][  0]SourceControl: Info Source control is disabled
+[2017.06.01-11.07.02:771][  0]SourceControl: Info Source control is disabled
+[2017.06.01-11.07.02:819][  0]SourceControl: Info Source control is disabled
+[2017.06.01-11.07.03:984][  0]LogEngine: Initializing Engine...
+[2017.06.01-11.07.03:984][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.01-11.07.04:095][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.01-11.07.04:096][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.01-11.07.04:179][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.01-11.07.04:186][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.01-11.07.04:207][  0]LogInit: FAudioDevice initialized.
+[2017.06.01-11.07.04:240][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Dave/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.06.01-11.07.04:254][  0]LogInit: Texture streaming: Enabled
+[2017.06.01-11.07.04:324][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.01-11.07.04:382][  0]LogInit: Transaction tracking system initialized
+[2017.06.01-11.07.04:597][  0]BlueprintLog: New page: Editor Load
+[2017.06.01-11.07.05:254][  0]LocalizationService: Info Localization service is disabled
+[2017.06.01-11.07.06:034][  0]LogConsoleResponse:Display: 
+[2017.06.01-11.07.06:215][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.01-11.07.06:215][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.01-11.07.06:583][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/' took 0.02s
+[2017.06.01-11.07.07:311][  0]SourceControl: Info Source control is disabled
+[2017.06.01-11.07.07:311][  0]Cmd: MAP LOAD FILE="C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.01-11.07.07:311][  0]LightingResults: New page: Lighting Build
+[2017.06.01-11.07.07:340][  0]MapCheck: New page: Map Check
+[2017.06.01-11.07.07:340][  0]LightingResults: New page: Lighting Build
+[2017.06.01-11.07.07:492][  0]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body_2'
+[2017.06.01-11.07.07:492][  0]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body_2' while loading C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC.uasset.
+[2017.06.01-11.07.07:492][  0]LoadErrors:Error: Error /Game/System/NPC/NPC : Can't find file for asset. /Game/Mannequin/Character/Materials/M_UE4Man_Body_2
+[2017.06.01-11.07.07:507][  0]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body_2'
+[2017.06.01-11.07.07:508][  0]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body_2' while loading C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC.uasset.
+[2017.06.01-11.07.07:508][  0]LoadErrors:Error: Error /Game/System/NPC/NPC : Can't find file for asset. /Game/Mannequin/Character/Materials/M_UE4Man_Body_2
+[2017.06.01-11.07.07:509][  0]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body_2'
+[2017.06.01-11.07.07:509][  0]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body_2' while loading C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2017.06.01-11.07.07:509][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Mannequin/Character/Materials/M_UE4Man_Body_2
+[2017.06.01-11.07.07:509][  0]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body_2'
+[2017.06.01-11.07.07:509][  0]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body_2' while loading C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2017.06.01-11.07.07:509][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Mannequin/Character/Materials/M_UE4Man_Body_2
+[2017.06.01-11.07.07:510][  0]LogLinker:Warning: Can't find file '/Game/Mannequin/Character/Materials/M_UE4Man_Body_2'
+[2017.06.01-11.07.07:510][  0]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/M_UE4Man_Body_2.M_UE4Man_Body_2 Referenced by CharacterMesh0
+[2017.06.01-11.07.07:510][  0]LogLinker:Warning: Can't find file for asset '/Game/Mannequin/Character/Materials/M_UE4Man_Body_2' while loading C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2017.06.01-11.07.07:510][  0]LoadErrors: Info Failed to load /Game/Mannequin/Character/Materials/M_UE4Man_Body_2.M_UE4Man_Body_2 Referenced by CharacterMesh0
+[2017.06.01-11.07.07:510][  0]LoadErrors:Error: Error /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/Mannequin/Character/Materials/M_UE4Man_Body_2
+[2017.06.01-11.07.08:002][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.01-11.07.08:040][  0]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.07.08:046][  0]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.07.08:048][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.01-11.07.08:048][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.01-11.07.08:118][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.144ms to complete.
+[2017.06.01-11.07.08:118][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.807
+[2017.06.01-11.07.08:328][  0]LogCollectionManager: Loaded 0 collections in 0.001606 seconds
+[2017.06.01-11.07.08:433][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/Collections/' took 0.01s
+[2017.06.01-11.07.08:433][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/Developers/Dave/Collections/' took 0.02s
+[2017.06.01-11.07.08:433][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/Collections/' took 0.02s
+[2017.06.01-11.07.08:433][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.06.01-11.07.08:450][  0]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 2245 classes and 453 folders.
+[2017.06.01-11.07.08:553][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.06.01-11.07.08:622][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.06.01-11.07.08:672][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.06.01-11.07.08:757][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.01-11.07.08:767][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.01-11.07.08:872][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.06.01-11.07.08:872][  0]LogLoad: (Engine Initialization) Total time: 16.01 seconds
+[2017.06.01-11.07.08:872][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.21 seconds
+[2017.06.01-11.07.08:872][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.06.01-11.07.08:872][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.06.01-11.07.08:890][  0]LogOcInput: OculusInput pre-init called
+[2017.06.01-11.07.08:910][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.01-11.07.09:026][  0]LogSlate: Took 0.000206 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.01-11.07.09:037][  0]LogSlate: Took 0.001833 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.01-11.07.09:045][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.01-11.07.09:270][  0]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.01-11.07.09:334][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.06.01-11.07.09:590][  2]LogAssetRegistry: Asset discovery search completed in 9.1386 seconds
+[2017.06.01-11.07.09:590][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2017.06.01-11.07.09:590][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2017.06.01-11.07.36:064][864]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.06.01-11.07.36:065][864]LogTemp:Display: Added material ShaderMap 0x0000000E1577FC80 with Material 0x0000000E135A5A80 to ShaderMapsBeingCompiled
+[2017.06.01-11.07.36:166][864]LogTemp:Display: Kicking off shader compilation for Material_0, GameThreadShaderMap 0x0000000E1577FC80
+[2017.06.01-11.07.36:256][865]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.06.01-11.07.36:258][865]LogTemp:Display: Added material ShaderMap 0x0000000E16168B80 with Material 0x0000000E157E4E80 to ShaderMapsBeingCompiled
+[2017.06.01-11.07.36:305][865]LogTemp:Display: Kicking off shader compilation for Material_1, GameThreadShaderMap 0x0000000E16168B80
+[2017.06.01-11.07.36:403][866]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2017.06.01-11.07.36:404][866]LogTemp:Display: Added material ShaderMap 0x0000000E213D4100 with Material 0x0000000E2259B880 to ShaderMapsBeingCompiled
+[2017.06.01-11.07.36:449][866]LogTemp:Display: Kicking off shader compilation for Material_2, GameThreadShaderMap 0x0000000E213D4100
+[2017.06.01-11.07.36:511][867]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2017.06.01-11.07.36:513][867]LogTemp:Display: Added material ShaderMap 0x0000000E21C63580 with Material 0x0000000E22599A80 to ShaderMapsBeingCompiled
+[2017.06.01-11.07.36:562][867]LogTemp:Display: Kicking off shader compilation for Material_3, GameThreadShaderMap 0x0000000E21C63580
+[2017.06.01-11.07.43:712][965]LogTemp:Display: Finished compile of shader map 0x0000000E1577FC80
+[2017.06.01-11.07.43:712][965]LogTemp:Display: Shader map Material_0 complete, GameThreadShaderMap 0x0000000E1577FC80, marking material Material_0 as finished
+[2017.06.01-11.07.43:712][965]LogTemp:Display: Marking material as finished 0x0000000E135A5A80
+[2017.06.01-11.07.45:715][971]LogTemp:Display: Finished compile of shader map 0x0000000E16168B80
+[2017.06.01-11.07.45:715][971]LogTemp:Display: Shader map Material_1 complete, GameThreadShaderMap 0x0000000E16168B80, marking material Material_1 as finished
+[2017.06.01-11.07.45:715][971]LogTemp:Display: Marking material as finished 0x0000000E157E4E80
+[2017.06.01-11.07.55:988][994]LogTemp:Display: Finished compile of shader map 0x0000000E213D4100
+[2017.06.01-11.07.55:988][994]LogTemp:Display: Shader map Material_2 complete, GameThreadShaderMap 0x0000000E213D4100, marking material Material_2 as finished
+[2017.06.01-11.07.55:988][994]LogTemp:Display: Marking material as finished 0x0000000E2259B880
+[2017.06.01-11.08.03:272][  8]LogTemp:Display: Finished compile of shader map 0x0000000E21C63580
+[2017.06.01-11.08.03:274][  8]LogTemp:Display: Shader map Material_3 complete, GameThreadShaderMap 0x0000000E21C63580, marking material Material_3 as finished
+[2017.06.01-11.08.03:274][  8]LogTemp:Display: Marking material as finished 0x0000000E22599A80
+[2017.06.01-11.09.16:020][360]LogMaterial: Missing cached shader map for material M_UE4Man_Body_2, compiling. 
+[2017.06.01-11.09.16:037][360]LogTemp:Display: Added material ShaderMap 0x0000000E1318AE80 with Material 0x0000000E164EA200 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.16:121][360]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body_2, GameThreadShaderMap 0x0000000E1318AE80
+[2017.06.01-11.09.29:486][554]LogSlate: Took 0.000277 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.01-11.09.29:623][554]LogMaterial: Missing cached shader map for material M_UE4Man_Body_2, compiling. 
+[2017.06.01-11.09.29:629][554]LogTemp:Display: Added material ShaderMap 0x0000000E1963E080 with Material 0x0000000E195B5300 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.29:737][554]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body_2, GameThreadShaderMap 0x0000000E1963E080
+[2017.06.01-11.09.29:970][554]LogMaterial: Missing cached shader map for material M_UE4Man_Body_2, compiling. 
+[2017.06.01-11.09.29:980][554]LogTemp:Display: Added material ShaderMap 0x0000000E9271A080 with Material 0x0000000E195B5300 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.30:117][554]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body_2, GameThreadShaderMap 0x0000000E9271A080
+[2017.06.01-11.09.30:117][554]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.01-11.09.30:163][554]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.06.01-11.09.30:164][554]LogTemp:Display: Added material ShaderMap 0x0000000E92F91D00 with Material 0x0000000E9300BA00 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.30:168][554]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_4, GameThreadShaderMap 0x0000000E92F91D00
+[2017.06.01-11.09.30:196][554]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.09.30:197][554]LogTemp:Display: Added material ShaderMap 0x0000000E92F90480 with Material 0x0000000E93008D00 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.30:200][554]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E92F90480
+[2017.06.01-11.09.30:202][554]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2017.06.01-11.09.30:203][554]LogTemp:Display: Added material ShaderMap 0x0000000E92F5F580 with Material 0x0000000E1370E200 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.30:207][554]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, GameThreadShaderMap 0x0000000E92F5F580
+[2017.06.01-11.09.30:215][554]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.01-11.09.31:936][590]LogSlate: Took 0.002231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.01-11.09.40:667][867]LogTemp:Display: Removed shader map 0x0000000E92F90480 from material 0x0000000E93008D00
+[2017.06.01-11.09.40:691][867]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.09.40:692][867]LogTemp:Display: Added material ShaderMap 0x0000000E97581D00 with Material 0x0000000E96227400 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.40:695][867]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E97581D00
+[2017.06.01-11.09.40:737][868]LogTemp:Display: Removed shader map 0x0000000E97581D00 from material 0x0000000E96227400
+[2017.06.01-11.09.40:764][868]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.09.40:765][868]LogTemp:Display: Added material ShaderMap 0x0000000E97580480 with Material 0x0000000E98331F00 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.40:769][868]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E97580480
+[2017.06.01-11.09.40:774][868]LogTemp:Display: Removed shader map 0x0000000E97580480 from material 0x0000000E98331F00
+[2017.06.01-11.09.40:797][868]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.09.40:798][868]LogTemp:Display: Added material ShaderMap 0x0000000E96372E80 with Material 0x0000000E98331F00 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.40:803][868]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E96372E80
+[2017.06.01-11.09.40:807][868]LogTemp:Display: Removed shader map 0x0000000E96372E80 from material 0x0000000E98331F00
+[2017.06.01-11.09.40:852][868]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.09.40:853][868]LogTemp:Display: Added material ShaderMap 0x0000000E96371980 with Material 0x0000000E94888100 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.40:857][868]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E96371980
+[2017.06.01-11.09.40:861][868]LogTemp:Display: Removed shader map 0x0000000E96371980 from material 0x0000000E94888100
+[2017.06.01-11.09.40:886][868]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.09.40:887][868]LogTemp:Display: Added material ShaderMap 0x0000000E96370100 with Material 0x0000000E93EE3700 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.40:892][868]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E96370100
+[2017.06.01-11.09.41:728][899]LogMaterial: Missing cached shader map for material M_UE4Man_Body_2, compiling. 
+[2017.06.01-11.09.41:733][899]LogTemp:Display: Added material ShaderMap 0x0000000E988A6080 with Material 0x0000000E195B5300 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.41:841][899]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body_2, GameThreadShaderMap 0x0000000E988A6080
+[2017.06.01-11.09.41:841][899]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.01-11.09.41:847][899]LogTemp:Display: Removed shader map 0x0000000E96370100 from material 0x0000000E93EE3700
+[2017.06.01-11.09.41:871][899]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.09.41:872][899]LogTemp:Display: Added material ShaderMap 0x0000000E9990B580 with Material 0x0000000E99923A00 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.41:876][899]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E9990B580
+[2017.06.01-11.09.41:878][899]LogTemp:Display: Finished compile of shader map 0x0000000E9271A080
+[2017.06.01-11.09.41:878][899]LogTemp:Display: Shader map M_UE4Man_Body_2 complete, GameThreadShaderMap 0x0000000E9271A080, marking material M_UE4Man_Body_2 as finished
+[2017.06.01-11.09.41:878][899]LogTemp:Display: Marking material as finished 0x0000000E195B5300
+[2017.06.01-11.09.42:808][928]LogTemp:Display: Finished compile of shader map 0x0000000E92F91D00
+[2017.06.01-11.09.42:808][928]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_4 complete, GameThreadShaderMap 0x0000000E92F91D00, marking material FMatExpressionPreview MaterialExpressionTextureSample_4 as finished
+[2017.06.01-11.09.42:808][928]LogTemp:Display: Marking material as finished 0x0000000E9300BA00
+[2017.06.01-11.09.43:614][951]LogTemp:Display: Removed shader map 0x0000000E9990B580 from material 0x0000000E99923A00
+[2017.06.01-11.09.43:639][951]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.09.43:640][951]LogTemp:Display: Added material ShaderMap 0x0000000E92718F00 with Material 0x0000000E9280E500 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.43:644][951]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E92718F00
+[2017.06.01-11.09.43:676][952]LogTemp:Display: Removed shader map 0x0000000E92718F00 from material 0x0000000E9280E500
+[2017.06.01-11.09.43:703][952]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.09.43:704][952]LogTemp:Display: Added material ShaderMap 0x0000000E92F91980 with Material 0x0000000E998E5F00 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.43:708][952]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E92F91980
+[2017.06.01-11.09.43:718][952]LogTemp:Display: Removed shader map 0x0000000E92F91980 from material 0x0000000E998E5F00
+[2017.06.01-11.09.43:742][952]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.09.43:743][952]LogTemp:Display: Added material ShaderMap 0x0000000E926B3200 with Material 0x0000000E998E5F00 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.43:747][952]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E926B3200
+[2017.06.01-11.09.43:752][952]LogTemp:Display: Removed shader map 0x0000000E926B3200 from material 0x0000000E998E5F00
+[2017.06.01-11.09.43:777][952]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.09.43:779][952]LogTemp:Display: Added material ShaderMap 0x0000000E926B1D00 with Material 0x0000000E998E5F00 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.43:782][952]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E926B1D00
+[2017.06.01-11.09.43:786][952]LogTemp:Display: Finished compile of shader map 0x0000000E92F5F580
+[2017.06.01-11.09.43:786][952]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 complete, GameThreadShaderMap 0x0000000E92F5F580, marking material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 as finished
+[2017.06.01-11.09.43:786][952]LogTemp:Display: Marking material as finished 0x0000000E1370E200
+[2017.06.01-11.09.44:039][960]LogMaterial: Missing cached shader map for material M_UE4Man_Body_2, compiling. 
+[2017.06.01-11.09.44:044][960]LogTemp:Display: Added material ShaderMap 0x0000000E92F5F200 with Material 0x0000000E195B5300 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.44:150][960]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body_2, GameThreadShaderMap 0x0000000E92F5F200
+[2017.06.01-11.09.44:151][960]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.01-11.09.44:158][960]LogTemp:Display: Removed shader map 0x0000000E926B1D00 from material 0x0000000E998E5F00
+[2017.06.01-11.09.44:191][960]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.09.44:192][960]LogTemp:Display: Added material ShaderMap 0x0000000E9AD68F00 with Material 0x0000000E9ADAFA00 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.44:196][960]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E9AD68F00
+[2017.06.01-11.09.44:198][960]LogTemp:Display: Finished compile of shader map 0x0000000E988A6080
+[2017.06.01-11.09.44:198][960]LogTemp:Display: Shader map M_UE4Man_Body_2 complete, GameThreadShaderMap 0x0000000E988A6080, marking material M_UE4Man_Body_2 as finished
+[2017.06.01-11.09.44:198][960]LogTemp:Display: Marking material as finished 0x0000000E195B5300
+[2017.06.01-11.09.45:025][986]LogTemp:Display: Finished compile of shader map 0x0000000E926B1D00
+[2017.06.01-11.09.51:361][208]LogMaterialEditor: Saving and Compiling material M_UE4Man_Body_2
+[2017.06.01-11.09.52:431][208]LogMaterial: Missing cached shader map for material M_UE4Man_Body_2, compiling. 
+[2017.06.01-11.09.52:436][208]LogTemp:Display: Added material ShaderMap 0x0000000E93184F00 with Material 0x0000000E195B5300 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.52:583][208]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body_2, GameThreadShaderMap 0x0000000E93184F00
+[2017.06.01-11.09.52:583][208]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.01-11.09.52:627][208]LogTemp:Display: Removed shader map 0x0000000E1318AE80 from material 0x0000000E164EA200
+[2017.06.01-11.09.52:672][208]LogMaterial: Missing cached shader map for material M_UE4Man_Body_2, compiling. 
+[2017.06.01-11.09.52:677][208]LogTemp:Display: Added material ShaderMap 0x0000000E16625980 with Material 0x0000000E164E9A80 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.52:828][208]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body_2, GameThreadShaderMap 0x0000000E16625980
+[2017.06.01-11.09.52:833][208]LogMaterial: Missing cached shader map for material M_UE4Man_Body_2, compiling. 
+[2017.06.01-11.09.52:838][208]LogTemp:Display: Added material ShaderMap 0x0000000E9C154B80 with Material 0x0000000E164E9A80 to ShaderMapsBeingCompiled
+[2017.06.01-11.09.52:969][208]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body_2, GameThreadShaderMap 0x0000000E9C154B80
+[2017.06.01-11.09.52:971][208]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.01-11.09.53:167][208]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body_2, compiling. 
+[2017.06.01-11.09.53:173][208]LogTemp:Display: Added material ShaderMap 0x0000000E9D0FE080 with Material 0x0000000E9D0CBD00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.02:548][208]LogTemp:Display: Finished compile of shader map 0x0000000E9D0FE080
+[2017.06.01-11.10.02:548][208]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_UE4Man_Body_2 complete, GameThreadShaderMap 0x0000000E9D0FE080, marking material FDebugViewModeMaterialProxy M_UE4Man_Body_2 as finished
+[2017.06.01-11.10.02:548][208]LogTemp:Display: Marking material as finished 0x0000000E9D0CBD00
+[2017.06.01-11.10.02:585][208]TextureStreamingBuild:Display: Compiling optional shaders took 9.539 seconds.
+[2017.06.01-11.10.17:698][208]LogTemp:Display: Finished compile of shader map 0x0000000E9C154B80
+[2017.06.01-11.10.17:698][208]LogTemp:Display: Shader map M_UE4Man_Body_2 complete, GameThreadShaderMap 0x0000000E9C154B80, marking material M_UE4Man_Body_2 as finished
+[2017.06.01-11.10.17:698][208]LogTemp:Display: Marking material as finished 0x0000000E164E9A80
+[2017.06.01-11.10.17:706][208]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.01-11.10.17:711][208]LogTemp:Display: Finished compile of shader map 0x0000000E93184F00
+[2017.06.01-11.10.17:711][208]LogTemp:Display: Shader map M_UE4Man_Body_2 complete, GameThreadShaderMap 0x0000000E93184F00, marking material M_UE4Man_Body_2 as finished
+[2017.06.01-11.10.17:711][208]LogTemp:Display: Marking material as finished 0x0000000E195B5300
+[2017.06.01-11.10.17:717][208]LogTemp:Display: Finished compile of shader map 0x0000000E9AD68F00
+[2017.06.01-11.10.17:717][208]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_3 complete, GameThreadShaderMap 0x0000000E9AD68F00, marking material FMatExpressionPreview MaterialExpressionVectorParameter_3 as finished
+[2017.06.01-11.10.17:717][208]LogTemp:Display: Marking material as finished 0x0000000E9ADAFA00
+[2017.06.01-11.10.17:725][208]LogTemp:Display: Finished compile of shader map 0x0000000E1318AE80
+[2017.06.01-11.10.17:731][208]LogTemp:Display: Finished compile of shader map 0x0000000E92F5F200
+[2017.06.01-11.10.17:731][208]LogTemp:Display: Shader map M_UE4Man_Body_2 complete, GameThreadShaderMap 0x0000000E92F5F200, marking material M_UE4Man_Body_2 as finished
+[2017.06.01-11.10.17:731][208]LogTemp:Display: Marking material as finished 0x0000000E195B5300
+[2017.06.01-11.10.17:894][208]LogSavePackage: Save=22.27ms
+[2017.06.01-11.10.17:894][208]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/M_UE4Man_Body_283F85D444D9F7DA2D8C2D882745CDCC9.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/Mannequin/Character/Materials/M_UE4Man_Body_2.uasset'
+[2017.06.01-11.10.17:897][208]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/Mannequin/Character/Materials/M_UE4Man_Body_2.uasset
+[2017.06.01-11.10.17:908][208]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 94 instructions
+[2017.06.01-11.10.17:908][208]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.01-11.10.17:908][208]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.01-11.10.22:625][362]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.22:626][362]LogTemp:Display: Added material ShaderMap 0x0000000E0BCFB900 with Material 0x0000000E070E0D00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.22:629][362]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E0BCFB900
+[2017.06.01-11.10.22:637][362]LogTemp:Display: Removed shader map 0x0000000E0BCFB900 from material 0x0000000E070E0D00
+[2017.06.01-11.10.22:661][362]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.22:662][362]LogTemp:Display: Added material ShaderMap 0x0000000E0BCFAE80 with Material 0x0000000E070E0D00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.22:666][362]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E0BCFAE80
+[2017.06.01-11.10.22:671][362]LogTemp:Display: Removed shader map 0x0000000E0BCFAE80 from material 0x0000000E070E0D00
+[2017.06.01-11.10.22:694][362]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.22:695][362]LogTemp:Display: Added material ShaderMap 0x0000000E21C60B80 with Material 0x0000000E9ADAC700 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.22:698][362]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E21C60B80
+[2017.06.01-11.10.22:703][362]LogTemp:Display: Removed shader map 0x0000000E21C60B80 from material 0x0000000E9ADAC700
+[2017.06.01-11.10.22:732][362]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.22:733][362]LogTemp:Display: Added material ShaderMap 0x0000000E21C62080 with Material 0x0000000E9ADAC700 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.22:737][362]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E21C62080
+[2017.06.01-11.10.22:765][363]LogTemp:Display: Removed shader map 0x0000000E21C62080 from material 0x0000000E9ADAC700
+[2017.06.01-11.10.22:799][363]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.22:800][363]LogTemp:Display: Added material ShaderMap 0x0000000E21C63900 with Material 0x0000000E06962500 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.22:803][363]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E21C63900
+[2017.06.01-11.10.22:807][363]LogTemp:Display: Removed shader map 0x0000000E21C63900 from material 0x0000000E06962500
+[2017.06.01-11.10.22:832][363]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.22:833][363]LogTemp:Display: Added material ShaderMap 0x0000000E13AA5280 with Material 0x0000000E00DB0D00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.22:837][363]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E13AA5280
+[2017.06.01-11.10.23:033][370]LogMaterial: Missing cached shader map for material M_UE4Man_Body_2, compiling. 
+[2017.06.01-11.10.23:038][370]LogTemp:Display: Added material ShaderMap 0x0000000E13580480 with Material 0x0000000E195B5300 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.23:142][370]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body_2, GameThreadShaderMap 0x0000000E13580480
+[2017.06.01-11.10.23:143][370]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.01-11.10.23:150][370]LogTemp:Display: Removed shader map 0x0000000E13AA5280 from material 0x0000000E00DB0D00
+[2017.06.01-11.10.23:176][370]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.23:177][370]LogTemp:Display: Added material ShaderMap 0x0000000E196B4B80 with Material 0x0000000E9A554700 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.23:181][370]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E196B4B80
+[2017.06.01-11.10.23:525][382]LogTemp:Display: Finished compile of shader map 0x0000000E0BCFB900
+[2017.06.01-11.10.23:616][385]LogTemp:Display: Finished compile of shader map 0x0000000E0BCFAE80
+[2017.06.01-11.10.24:179][401]LogTemp:Display: Removed shader map 0x0000000E196B4B80 from material 0x0000000E9A554700
+[2017.06.01-11.10.24:240][401]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.24:241][401]LogTemp:Display: Added material ShaderMap 0x0000000E0BCFAB00 with Material 0x0000000E9A554700 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.24:245][401]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E0BCFAB00
+[2017.06.01-11.10.24:252][401]LogMaterial: Missing cached shader map for material M_UE4Man_Body_2, compiling. 
+[2017.06.01-11.10.24:257][401]LogTemp:Display: Added material ShaderMap 0x0000000E0BCF9980 with Material 0x0000000E195B5300 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.24:356][401]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body_2, GameThreadShaderMap 0x0000000E0BCF9980
+[2017.06.01-11.10.24:356][401]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.01-11.10.24:361][401]LogTemp:Display: Removed shader map 0x0000000E0BCFAB00 from material 0x0000000E9A554700
+[2017.06.01-11.10.24:384][401]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.24:385][401]LogTemp:Display: Added material ShaderMap 0x0000000E9C08F580 with Material 0x0000000E9ACFBD00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.24:389][401]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E9C08F580
+[2017.06.01-11.10.24:575][408]LogTemp:Display: Finished compile of shader map 0x0000000E13580480
+[2017.06.01-11.10.24:575][408]LogTemp:Display: Shader map M_UE4Man_Body_2 complete, GameThreadShaderMap 0x0000000E13580480, marking material M_UE4Man_Body_2 as finished
+[2017.06.01-11.10.24:575][408]LogTemp:Display: Marking material as finished 0x0000000E195B5300
+[2017.06.01-11.10.25:215][427]LogTemp:Display: Finished compile of shader map 0x0000000E0BCFAB00
+[2017.06.01-11.10.26:824][482]LogTemp:Display: Removed shader map 0x0000000E9C08F580 from material 0x0000000E9ACFBD00
+[2017.06.01-11.10.26:849][482]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.26:850][482]LogTemp:Display: Added material ShaderMap 0x0000000E99893200 with Material 0x0000000E9A9E9600 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.26:855][482]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E99893200
+[2017.06.01-11.10.26:865][482]LogMaterial: Missing cached shader map for material M_UE4Man_Body_2, compiling. 
+[2017.06.01-11.10.26:872][482]LogTemp:Display: Added material ShaderMap 0x0000000E0BCF9D00 with Material 0x0000000E195B5300 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.26:968][482]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body_2, GameThreadShaderMap 0x0000000E0BCF9D00
+[2017.06.01-11.10.26:968][482]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.01-11.10.26:971][482]LogTemp:Display: Removed shader map 0x0000000E99893200 from material 0x0000000E9A9E9600
+[2017.06.01-11.10.26:994][482]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.26:995][482]LogTemp:Display: Added material ShaderMap 0x0000000E9DD80B80 with Material 0x0000000E9DD5FA00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.26:998][482]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E9DD80B80
+[2017.06.01-11.10.27:000][482]LogTemp:Display: Finished compile of shader map 0x0000000E0BCF9980
+[2017.06.01-11.10.27:000][482]LogTemp:Display: Shader map M_UE4Man_Body_2 complete, GameThreadShaderMap 0x0000000E0BCF9980, marking material M_UE4Man_Body_2 as finished
+[2017.06.01-11.10.27:000][482]LogTemp:Display: Marking material as finished 0x0000000E195B5300
+[2017.06.01-11.10.28:099][521]LogTemp:Display: Removed shader map 0x0000000E9DD80B80 from material 0x0000000E9DD5FA00
+[2017.06.01-11.10.28:127][521]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.28:128][521]LogTemp:Display: Added material ShaderMap 0x0000000E9DD0C100 with Material 0x0000000E9C07C100 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.28:131][521]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E9DD0C100
+[2017.06.01-11.10.28:133][521]LogTemp:Display: Finished compile of shader map 0x0000000E99893200
+[2017.06.01-11.10.28:167][522]LogMaterial: Missing cached shader map for material M_UE4Man_Body_2, compiling. 
+[2017.06.01-11.10.28:172][522]LogTemp:Display: Added material ShaderMap 0x0000000E0BCFA780 with Material 0x0000000E195B5300 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.28:279][522]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body_2, GameThreadShaderMap 0x0000000E0BCFA780
+[2017.06.01-11.10.28:280][522]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.01-11.10.28:288][522]LogTemp:Display: Removed shader map 0x0000000E9DD0C100 from material 0x0000000E9C07C100
+[2017.06.01-11.10.28:314][522]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.28:315][522]LogTemp:Display: Added material ShaderMap 0x0000000E9D725D00 with Material 0x0000000E9D753A00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.28:318][522]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E9D725D00
+[2017.06.01-11.10.29:277][556]LogTemp:Display: Finished compile of shader map 0x0000000E0BCF9D00
+[2017.06.01-11.10.29:277][556]LogTemp:Display: Shader map M_UE4Man_Body_2 complete, GameThreadShaderMap 0x0000000E0BCF9D00, marking material M_UE4Man_Body_2 as finished
+[2017.06.01-11.10.29:277][556]LogTemp:Display: Marking material as finished 0x0000000E195B5300
+[2017.06.01-11.10.29:475][562]LogTemp:Display: Finished compile of shader map 0x0000000E9DD0C100
+[2017.06.01-11.10.29:644][566]LogTemp:Display: Removed shader map 0x0000000E9D725D00 from material 0x0000000E9D753A00
+[2017.06.01-11.10.29:674][566]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.29:675][566]LogTemp:Display: Added material ShaderMap 0x0000000E9D6F1980 with Material 0x0000000E9DCD5600 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.29:679][566]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E9D6F1980
+[2017.06.01-11.10.29:716][567]LogTemp:Display: Removed shader map 0x0000000E9D6F1980 from material 0x0000000E9DCD5600
+[2017.06.01-11.10.29:753][567]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.29:755][567]LogTemp:Display: Added material ShaderMap 0x0000000E0BCFAE80 with Material 0x0000000E9A9E9300 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.29:759][567]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E0BCFAE80
+[2017.06.01-11.10.29:766][567]LogTemp:Display: Removed shader map 0x0000000E0BCFAE80 from material 0x0000000E9A9E9300
+[2017.06.01-11.10.29:790][567]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.29:791][567]LogTemp:Display: Added material ShaderMap 0x0000000E13580480 with Material 0x0000000E9A9E9300 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.29:795][567]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E13580480
+[2017.06.01-11.10.29:800][567]LogTemp:Display: Removed shader map 0x0000000E13580480 from material 0x0000000E9A9E9300
+[2017.06.01-11.10.29:824][567]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.29:826][567]LogTemp:Display: Added material ShaderMap 0x0000000E99891D00 with Material 0x0000000E225A0100 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.29:829][567]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E99891D00
+[2017.06.01-11.10.29:834][567]LogTemp:Display: Removed shader map 0x0000000E99891D00 from material 0x0000000E225A0100
+[2017.06.01-11.10.29:858][567]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.29:859][567]LogTemp:Display: Added material ShaderMap 0x0000000E99892E80 with Material 0x0000000E225A0100 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.29:864][567]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E99892E80
+[2017.06.01-11.10.29:868][567]LogTemp:Display: Removed shader map 0x0000000E99892E80 from material 0x0000000E225A0100
+[2017.06.01-11.10.29:892][567]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.29:893][567]LogTemp:Display: Added material ShaderMap 0x0000000E9DD0CF00 with Material 0x0000000E225A0100 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.29:897][567]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E9DD0CF00
+[2017.06.01-11.10.29:902][567]LogTemp:Display: Removed shader map 0x0000000E9DD0CF00 from material 0x0000000E225A0100
+[2017.06.01-11.10.29:925][567]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.29:926][567]LogTemp:Display: Added material ShaderMap 0x0000000E9DD0E400 with Material 0x0000000E9DCD5F00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.29:930][567]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E9DD0E400
+[2017.06.01-11.10.30:056][572]LogTemp:Display: Removed shader map 0x0000000E9DD0E400 from material 0x0000000E9DCD5F00
+[2017.06.01-11.10.30:083][572]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.30:084][572]LogTemp:Display: Added material ShaderMap 0x0000000E9D66B580 with Material 0x0000000E9D751600 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.30:088][572]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E9D66B580
+[2017.06.01-11.10.30:092][572]LogTemp:Display: Removed shader map 0x0000000E9D66B580 from material 0x0000000E9D751600
+[2017.06.01-11.10.30:116][572]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.30:117][572]LogTemp:Display: Added material ShaderMap 0x0000000E9D66A080 with Material 0x0000000E9A9E9C00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.30:121][572]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E9D66A080
+[2017.06.01-11.10.30:129][572]LogMaterial: Missing cached shader map for material M_UE4Man_Body_2, compiling. 
+[2017.06.01-11.10.30:134][572]LogTemp:Display: Added material ShaderMap 0x0000000E9D668800 with Material 0x0000000E195B5300 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.30:235][572]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body_2, GameThreadShaderMap 0x0000000E9D668800
+[2017.06.01-11.10.30:235][572]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.01-11.10.30:238][572]LogTemp:Display: Removed shader map 0x0000000E9D66A080 from material 0x0000000E9A9E9C00
+[2017.06.01-11.10.30:261][572]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.30:262][572]LogTemp:Display: Added material ShaderMap 0x0000000E2B0C8B80 with Material 0x0000000E2B08BA00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.30:266][572]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E2B0C8B80
+[2017.06.01-11.10.30:332][575]LogTemp:Display: Finished compile of shader map 0x0000000E0BCFA780
+[2017.06.01-11.10.30:332][575]LogTemp:Display: Shader map M_UE4Man_Body_2 complete, GameThreadShaderMap 0x0000000E0BCFA780, marking material M_UE4Man_Body_2 as finished
+[2017.06.01-11.10.30:332][575]LogTemp:Display: Marking material as finished 0x0000000E195B5300
+[2017.06.01-11.10.31:060][598]LogTemp:Display: Removed shader map 0x0000000E2B0C8B80 from material 0x0000000E2B08BA00
+[2017.06.01-11.10.31:088][598]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.31:089][598]LogTemp:Display: Added material ShaderMap 0x0000000E0BCFA780 with Material 0x0000000E9DCD6E00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.31:093][598]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E0BCFA780
+[2017.06.01-11.10.31:122][599]LogTemp:Display: Removed shader map 0x0000000E0BCFA780 from material 0x0000000E9DCD6E00
+[2017.06.01-11.10.31:148][599]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.31:149][599]LogTemp:Display: Added material ShaderMap 0x0000000E84D7E400 with Material 0x0000000E2ADC4D00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.31:156][599]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E84D7E400
+[2017.06.01-11.10.31:357][606]LogMaterial: Missing cached shader map for material M_UE4Man_Body_2, compiling. 
+[2017.06.01-11.10.31:362][606]LogTemp:Display: Added material ShaderMap 0x0000000E9C08D280 with Material 0x0000000E195B5300 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.31:464][606]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body_2, GameThreadShaderMap 0x0000000E9C08D280
+[2017.06.01-11.10.31:464][606]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.01-11.10.31:472][606]LogTemp:Display: Removed shader map 0x0000000E84D7E400 from material 0x0000000E2ADC4D00
+[2017.06.01-11.10.31:495][606]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.31:496][606]LogTemp:Display: Added material ShaderMap 0x0000000E2C1B7580 with Material 0x0000000E2C4ABA00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.31:500][606]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E2C1B7580
+[2017.06.01-11.10.31:884][619]LogTemp:Display: Finished compile of shader map 0x0000000E9D668800
+[2017.06.01-11.10.31:884][619]LogTemp:Display: Shader map M_UE4Man_Body_2 complete, GameThreadShaderMap 0x0000000E9D668800, marking material M_UE4Man_Body_2 as finished
+[2017.06.01-11.10.31:884][619]LogTemp:Display: Marking material as finished 0x0000000E195B5300
+[2017.06.01-11.10.32:251][632]LogTemp:Display: Finished compile of shader map 0x0000000E84D7E400
+[2017.06.01-11.10.32:792][650]LogTemp:Display: Removed shader map 0x0000000E2C1B7580 from material 0x0000000E2C4ABA00
+[2017.06.01-11.10.32:822][650]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.32:823][650]LogTemp:Display: Added material ShaderMap 0x0000000E2B065D00 with Material 0x0000000E2C179C00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.32:829][650]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E2B065D00
+[2017.06.01-11.10.32:838][650]LogTemp:Display: Removed shader map 0x0000000E2B065D00 from material 0x0000000E2C179C00
+[2017.06.01-11.10.32:862][650]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.32:863][650]LogTemp:Display: Added material ShaderMap 0x0000000E2B066E80 with Material 0x0000000E2C179C00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.32:867][650]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E2B066E80
+[2017.06.01-11.10.32:871][650]LogTemp:Display: Removed shader map 0x0000000E2B066E80 from material 0x0000000E2C179C00
+[2017.06.01-11.10.32:895][650]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.32:896][650]LogTemp:Display: Added material ShaderMap 0x0000000E9D668800 with Material 0x0000000E2C179C00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.32:900][650]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E9D668800
+[2017.06.01-11.10.32:905][650]LogTemp:Display: Removed shader map 0x0000000E9D668800 from material 0x0000000E2C179C00
+[2017.06.01-11.10.32:929][650]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.32:930][650]LogTemp:Display: Added material ShaderMap 0x0000000E1A2CA080 with Material 0x0000000E2C179C00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.32:934][650]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E1A2CA080
+[2017.06.01-11.10.32:939][650]LogTemp:Display: Removed shader map 0x0000000E1A2CA080 from material 0x0000000E2C179C00
+[2017.06.01-11.10.32:963][650]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.32:964][650]LogTemp:Display: Added material ShaderMap 0x0000000E1A2CB900 with Material 0x0000000E2C179C00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.32:968][650]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E1A2CB900
+[2017.06.01-11.10.32:972][650]LogTemp:Display: Removed shader map 0x0000000E1A2CB900 from material 0x0000000E2C179C00
+[2017.06.01-11.10.32:996][650]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.32:997][650]LogTemp:Display: Added material ShaderMap 0x0000000E2C153580 with Material 0x0000000E2C179C00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.33:001][650]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E2C153580
+[2017.06.01-11.10.33:027][651]LogTemp:Display: Removed shader map 0x0000000E2C153580 from material 0x0000000E2C179C00
+[2017.06.01-11.10.33:055][651]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.33:056][651]LogTemp:Display: Added material ShaderMap 0x0000000E2C151980 with Material 0x0000000E225A3100 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.33:059][651]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E2C151980
+[2017.06.01-11.10.33:062][651]LogTemp:Display: Removed shader map 0x0000000E2C151980 from material 0x0000000E225A3100
+[2017.06.01-11.10.33:085][651]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.33:086][651]LogTemp:Display: Added material ShaderMap 0x0000000E2C150480 with Material 0x0000000E9DCD4A00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.33:090][651]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E2C150480
+[2017.06.01-11.10.33:193][655]LogTemp:Display: Removed shader map 0x0000000E2C150480 from material 0x0000000E9DCD4A00
+[2017.06.01-11.10.33:220][655]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.33:221][655]LogTemp:Display: Added material ShaderMap 0x0000000E2C0D2400 with Material 0x0000000E2AD8D300 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.33:225][655]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E2C0D2400
+[2017.06.01-11.10.33:227][655]LogTemp:Display: Removed shader map 0x0000000E2C0D2400 from material 0x0000000E2AD8D300
+[2017.06.01-11.10.33:252][655]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.33:253][655]LogTemp:Display: Added material ShaderMap 0x0000000E2C0D1280 with Material 0x0000000E2AD8D300 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.33:257][655]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E2C0D1280
+[2017.06.01-11.10.34:019][684]LogTemp:Display: Removed shader map 0x0000000E2C0D1280 from material 0x0000000E2AD8D300
+[2017.06.01-11.10.34:045][684]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.34:046][684]LogTemp:Display: Added material ShaderMap 0x0000000E9C08E080 with Material 0x0000000E2A9C3D00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.34:051][684]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E9C08E080
+[2017.06.01-11.10.34:900][716]LogTemp:Display: Removed shader map 0x0000000E9C08E080 from material 0x0000000E2A9C3D00
+[2017.06.01-11.10.34:936][716]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.34:937][716]LogTemp:Display: Added material ShaderMap 0x0000000E2C012780 with Material 0x0000000E2AD8E800 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.34:942][716]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E2C012780
+[2017.06.01-11.10.35:314][729]LogMaterial: Missing cached shader map for material M_UE4Man_Body_2, compiling. 
+[2017.06.01-11.10.35:322][729]LogTemp:Display: Added material ShaderMap 0x0000000E2C010F00 with Material 0x0000000E195B5300 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.35:426][729]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body_2, GameThreadShaderMap 0x0000000E2C010F00
+[2017.06.01-11.10.35:427][729]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.01-11.10.35:432][729]LogTemp:Display: Removed shader map 0x0000000E2C012780 from material 0x0000000E2AD8E800
+[2017.06.01-11.10.35:458][729]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2017.06.01-11.10.35:459][729]LogTemp:Display: Added material ShaderMap 0x0000000E2D16CF00 with Material 0x0000000E2D463A00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.35:462][729]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_3, GameThreadShaderMap 0x0000000E2D16CF00
+[2017.06.01-11.10.37:260][793]LogTemp:Display: Finished compile of shader map 0x0000000E9C08D280
+[2017.06.01-11.10.37:260][793]LogTemp:Display: Shader map M_UE4Man_Body_2 complete, GameThreadShaderMap 0x0000000E9C08D280, marking material M_UE4Man_Body_2 as finished
+[2017.06.01-11.10.37:260][793]LogTemp:Display: Marking material as finished 0x0000000E195B5300
+[2017.06.01-11.10.39:339][869]LogMaterialEditor: Saving and Compiling material M_UE4Man_Body_2
+[2017.06.01-11.10.40:394][869]LogMaterial: Missing cached shader map for material M_UE4Man_Body_2, compiling. 
+[2017.06.01-11.10.40:399][869]LogTemp:Display: Added material ShaderMap 0x0000000E92F5E080 with Material 0x0000000E195B5300 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.40:539][869]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body_2, GameThreadShaderMap 0x0000000E92F5E080
+[2017.06.01-11.10.40:539][869]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.01-11.10.40:575][869]LogTemp:Display: Removed shader map 0x0000000E16625980 from material 0x0000000E164E9A80
+[2017.06.01-11.10.40:600][869]LogMaterial: Missing cached shader map for material M_UE4Man_Body_2, compiling. 
+[2017.06.01-11.10.40:605][869]LogTemp:Display: Added material ShaderMap 0x0000000E27244B80 with Material 0x0000000E97588400 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.40:758][869]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body_2, GameThreadShaderMap 0x0000000E27244B80
+[2017.06.01-11.10.40:763][869]LogMaterial: Missing cached shader map for material M_UE4Man_Body_2, compiling. 
+[2017.06.01-11.10.40:768][869]LogTemp:Display: Added material ShaderMap 0x0000000E337CE400 with Material 0x0000000E97588400 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.40:901][869]LogTemp:Display: Kicking off shader compilation for M_UE4Man_Body_2, GameThreadShaderMap 0x0000000E337CE400
+[2017.06.01-11.10.40:903][869]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.06.01-11.10.40:945][869]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_UE4Man_Body_2, compiling. 
+[2017.06.01-11.10.40:950][869]LogTemp:Display: Added material ShaderMap 0x0000000E851C0100 with Material 0x0000000E8514FA00 to ShaderMapsBeingCompiled
+[2017.06.01-11.10.50:360][869]LogTemp:Display: Finished compile of shader map 0x0000000E851C0100
+[2017.06.01-11.10.50:360][869]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_UE4Man_Body_2 complete, GameThreadShaderMap 0x0000000E851C0100, marking material FDebugViewModeMaterialProxy M_UE4Man_Body_2 as finished
+[2017.06.01-11.10.50:360][869]LogTemp:Display: Marking material as finished 0x0000000E8514FA00
+[2017.06.01-11.10.50:365][869]TextureStreamingBuild:Display: Compiling optional shaders took 9.430 seconds.
+[2017.06.01-11.11.02:480][869]LogTemp:Display: Finished compile of shader map 0x0000000E337CE400
+[2017.06.01-11.11.02:481][869]LogTemp:Display: Shader map M_UE4Man_Body_2 complete, GameThreadShaderMap 0x0000000E337CE400, marking material M_UE4Man_Body_2 as finished
+[2017.06.01-11.11.02:481][869]LogTemp:Display: Marking material as finished 0x0000000E97588400
+[2017.06.01-11.11.02:490][869]LogTemp:Display: Finished compile of shader map 0x0000000E2D16CF00
+[2017.06.01-11.11.02:490][869]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_3 complete, GameThreadShaderMap 0x0000000E2D16CF00, marking material FMatExpressionPreview MaterialExpressionVectorParameter_3 as finished
+[2017.06.01-11.11.02:490][869]LogTemp:Display: Marking material as finished 0x0000000E2D463A00
+[2017.06.01-11.11.02:492][869]LogTemp:Display: Finished compile of shader map 0x0000000E2C010F00
+[2017.06.01-11.11.02:492][869]LogTemp:Display: Shader map M_UE4Man_Body_2 complete, GameThreadShaderMap 0x0000000E2C010F00, marking material M_UE4Man_Body_2 as finished
+[2017.06.01-11.11.02:492][869]LogTemp:Display: Marking material as finished 0x0000000E195B5300
+[2017.06.01-11.11.02:496][869]LogTemp:Display: Finished compile of shader map 0x0000000E92F5E080
+[2017.06.01-11.11.02:496][869]LogTemp:Display: Shader map M_UE4Man_Body_2 complete, GameThreadShaderMap 0x0000000E92F5E080, marking material M_UE4Man_Body_2 as finished
+[2017.06.01-11.11.02:496][869]LogTemp:Display: Marking material as finished 0x0000000E195B5300
+[2017.06.01-11.11.02:679][869]LogSavePackage: Save=21.59ms
+[2017.06.01-11.11.02:679][869]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/M_UE4Man_Body_241DFF00040B03595ABCE0BB34A1C6679.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/Mannequin/Character/Materials/M_UE4Man_Body_2.uasset'
+[2017.06.01-11.11.02:682][869]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/Mannequin/Character/Materials/M_UE4Man_Body_2.uasset
+[2017.06.01-11.11.02:688][869]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 94 instructions
+[2017.06.01-11.11.02:688][869]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.06.01-11.11.02:688][869]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.06.01-11.11.13:826][285]LogEditorViewport: Clicking on Actor (LMB): NPC_C (NPC)
+[2017.06.01-11.11.52:293][179]LogSavePackage: Save=57.54ms
+[2017.06.01-11.11.52:293][179]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/SK_Mannequin_NPCBECD8E5943F167DB9E898F88664C8945.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/Mannequin/Character/Mesh/SK_Mannequin_NPC.uasset'
+[2017.06.01-11.11.52:296][179]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/Mannequin/Character/Mesh/SK_Mannequin_NPC.uasset
+[2017.06.01-11.11.55:451][246]LogSlate: Took 0.000310 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.01-11.11.58:222][327]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.06.01-11.11.58:746][327]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2017.06.01-11.11.59:127][327]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_11:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2017.06.01-11.11.59:539][327]LogRenderer: Reallocating scene render targets to support 1208x888 NumSamples 1 (Frame:7886).
+[2017.06.01-11.12.07:910][473]LogSavePackage: Save=57.72ms
+[2017.06.01-11.12.07:910][473]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/SK_Mannequin_NPC07E7907947F61539AEB1629E7671704E.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/Mannequin/Character/Mesh/SK_Mannequin_NPC.uasset'
+[2017.06.01-11.12.07:913][473]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/Mannequin/Character/Mesh/SK_Mannequin_NPC.uasset
+[2017.06.01-11.12.15:210][625]LogSavePackage: Save=20.53ms
+[2017.06.01-11.12.15:210][625]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/M_UE4Man_Body_NPCF5E3B7B44D6738AA20DBF7B89BAD83D1.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/Mannequin/Character/Materials/M_UE4Man_Body_NPC.uasset'
+[2017.06.01-11.12.15:213][625]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/Mannequin/Character/Materials/M_UE4Man_Body_NPC.uasset
+[2017.06.01-11.12.15:432][625]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/System/NPC/NPC" FILE="C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC.uasset" SILENT=true
+[2017.06.01-11.12.15:486][625]LogSavePackage: Save=46.69ms
+[2017.06.01-11.12.15:486][625]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/NPCB4D8540C4788C7E79FD9D38B691292C2.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC.uasset'
+[2017.06.01-11.12.15:488][625]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC.uasset
+[2017.06.01-11.12.15:544][625]LogSavePackage: Save=49.54ms
+[2017.06.01-11.12.15:544][625]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/SK_Mannequin_NPCA791042E43FD93BF0E18EB894C3DAE03.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/Mannequin/Character/Mesh/SK_Mannequin_NPC.uasset'
+[2017.06.01-11.12.15:547][625]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/Mannequin/Character/Mesh/SK_Mannequin_NPC.uasset
+[2017.06.01-11.12.26:109][926]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.06.01-11.12.43:849][546]BlueprintLog: New page: Compile NPC
+[2017.06.01-11.12.46:829][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/System/NPC/NPC" FILE="C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC.uasset" SILENT=true
+[2017.06.01-11.12.46:863][653]LogSavePackage: Save=30.59ms
+[2017.06.01-11.12.46:863][653]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/NPC270A0E5940230F15275EB58F4EA23B2C.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC.uasset'
+[2017.06.01-11.12.46:866][653]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC.uasset
+[2017.06.01-11.13.05:562][485]LogEditorViewport: Clicking on Actor (LMB): DocumentationActor (DocumentationActor1)
+[2017.06.01-11.13.06:912][549]Cmd: DELETE
+[2017.06.01-11.13.06:912][549]Cmd: ACTOR DELETE
+[2017.06.01-11.13.06:912][549]LogEditorActor: Deleted Actor: DocumentationActor
+[2017.06.01-11.13.06:951][549]LogEditorActor: Deleted 1 Actors (0.039 secs)
+[2017.06.01-11.13.09:323][666]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.06.01-11.13.10:483][719]Cmd: DELETE
+[2017.06.01-11.13.10:484][719]Cmd: ACTOR DELETE
+[2017.06.01-11.13.10:485][719]LogEditorActor: Deleted Actor: TextRenderActor
+[2017.06.01-11.13.10:547][719]LogEditorActor: Deleted 1 Actors (0.063 secs)
+[2017.06.01-11.13.13:323][854]LogEditorViewport: Clicking on Actor (LMB): NPC_C (NPC)
+[2017.06.01-11.13.57:736][455]BlueprintLog: New page: Compile NPC
+[2017.06.01-11.13.58:308][463]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/System/NPC/NPC" FILE="C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC.uasset" SILENT=true
+[2017.06.01-11.13.58:343][463]LogSavePackage: Save=31.23ms
+[2017.06.01-11.13.58:343][463]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/NPC0F3A1A614D3E062A502A9EBD642FB820.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC.uasset'
+[2017.06.01-11.13.58:346][463]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC.uasset
+[2017.06.01-11.14.22:181][401]BlueprintLog: New page: Compile NPC
+[2017.06.01-11.14.22:817][410]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/System/NPC/NPC" FILE="C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC.uasset" SILENT=true
+[2017.06.01-11.14.22:854][410]LogSavePackage: Save=31.94ms
+[2017.06.01-11.14.22:854][410]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/NPC7F4B2F4E43F30556C09FD683DA0440E0.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC.uasset'
+[2017.06.01-11.14.22:856][410]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC.uasset
+[2017.06.01-11.15.52:020][464]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.15.52:020][464]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.15.57:934][703]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.01-11.15.57:963][703]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.15.57:963][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.01-11.15.57:964][703]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 1, 2017, 3:15:57 PM)
+[2017.06.01-11.15.57:964][703]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.01-11.15.57:999][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034487s)
+[2017.06.01-11.15.58:000][703]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.01-11.15.58:001][703]LogPlayLevel: PIE: World Init took: (0.001827s)
+[2017.06.01-11.15.58:001][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.036845s)
+[2017.06.01-11.15.58:075][703]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.01-11.15.58:098][703]LogInit: FAudioDevice initialized.
+[2017.06.01-11.15.58:171][703]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.06.01-11.15.58:173][703]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.15.58:174][703]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.06.01-13.15.58
+[2017.06.01-11.15.58:194][703]LogWorld: Bringing up level for play took: 0.022982
+[2017.06.01-11.15.58:226][703]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.06.01-11.15.58:237][703]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 1.235
+[2017.06.01-11.15.58:237][703]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.15.58:293][703]LogRenderer: Reallocating scene render targets to support 1292x888 NumSamples 1 (Frame:19501).
+[2017.06.01-11.16.08:415][ 43]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.16.08:508][ 43]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.16.13:481][228]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.16.13:482][228]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.16.19:159][412]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.16.19:160][412]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.16.23:426][554]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.01-11.16.23:439][554]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.16.23:439][554]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.01-11.16.23:439][554]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 1, 2017, 3:16:23 PM)
+[2017.06.01-11.16.23:439][554]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.01-11.16.23:473][554]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033898s)
+[2017.06.01-11.16.23:474][554]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.01-11.16.23:474][554]LogPlayLevel: PIE: World Init took: (0.001224s)
+[2017.06.01-11.16.23:475][554]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.035501s)
+[2017.06.01-11.16.23:513][554]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.01-11.16.23:521][554]LogInit: FAudioDevice initialized.
+[2017.06.01-11.16.23:572][554]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.06.01-11.16.23:576][554]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.16.23:577][554]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.06.01-13.16.23
+[2017.06.01-11.16.23:578][554]LogWorld: Bringing up level for play took: 0.003019
+[2017.06.01-11.16.23:586][554]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.583
+[2017.06.01-11.16.23:653][554]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.16.33:975][913]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.16.34:065][913]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.16.46:993][473]LogEditorViewport: Clicking on Actor (LMB): NPC_C (NPC)
+[2017.06.01-11.17.01:120][998]BlueprintLog: New page: Compile NPC
+[2017.06.01-11.17.13:928][356]BlueprintLog: New page: Compile NPC
+[2017.06.01-11.17.20:894][594]LogSavePackage: Save=123.70ms
+[2017.06.01-11.17.20:894][594]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/ThirdPersonExampleMap1D6301FF471EB80F5DB08688CB021F85.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.06.01-11.17.20:927][594]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.06.01-11.17.21:332][594]LogSavePackage: Save=362.67ms
+[2017.06.01-11.17.21:332][594]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/ThirdPersonExampleMap_BuiltData714E73AF4491B9094F7551B12B8103BF.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.06.01-11.17.21:333][594]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.06.01-11.17.28:720][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/System/NPC/NPC" FILE="C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC.uasset" SILENT=true
+[2017.06.01-11.17.28:756][791]LogSavePackage: Save=27.87ms
+[2017.06.01-11.17.28:756][791]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/NPC4D1E83C547EBB923E50466A18B231F92.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC.uasset'
+[2017.06.01-11.17.28:759][791]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC.uasset
+[2017.06.01-11.17.38:825][106]BlueprintLog: New page: Compile BP_Interact_NPC
+[2017.06.01-11.17.38:925][106]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.17.39:151][106]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.17.39:152][106]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.17.39:189][106]LogTemp:Display: Removed shader map 0x0000000E1963E080 from material 0x0000000E195B5300
+[2017.06.01-11.17.39:191][106]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.17.39:192][106]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.17.59:864][868]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.01-11.18.01:064][926]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.06.01-11.18.41:468][233]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.01-11.21.32:514][155]LogSlate: Took 0.018608 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.01-11.21.58:462][231]BlueprintLog: New page: Compile BP_Interact_Parent
+[2017.06.01-11.21.58:628][231]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.21.58:629][231]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.23.37:923][408]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.23.37:924][408]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.24.04:625][541]BlueprintLog: New page: Compile BP_Interact_NPC
+[2017.06.01-11.24.04:815][541]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.24.05:056][541]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.24.05:056][541]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.24.05:097][541]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.24.05:097][541]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.24.08:130][677]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.01-11.24.08:155][677]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.24.08:155][677]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.01-11.24.08:155][677]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 1, 2017, 3:24:08 PM)
+[2017.06.01-11.24.08:155][677]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.01-11.24.08:181][677]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026123s)
+[2017.06.01-11.24.08:182][677]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.01-11.24.08:183][677]LogPlayLevel: PIE: World Init took: (0.001677s)
+[2017.06.01-11.24.08:183][677]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.028263s)
+[2017.06.01-11.24.08:226][677]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.01-11.24.08:235][677]LogInit: FAudioDevice initialized.
+[2017.06.01-11.24.08:276][677]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.06.01-11.24.08:278][677]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.24.08:279][677]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.06.01-13.24.08
+[2017.06.01-11.24.08:280][677]LogWorld: Bringing up level for play took: 0.003039
+[2017.06.01-11.24.08:288][677]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.714
+[2017.06.01-11.24.08:289][677]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.24.10:415][755]LogScript:Warning: Infinite script recursion (250 calls) detected - see log for stack trace
+	BP_Interact_NPC_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Interact_NPC_250
+	Function /Game/System/Interact/BP_Interact_NPC.BP_Interact_NPC_C:ExecuteUbergraph_BP_Interact_NPC:0000
+[2017.06.01-11.24.10:426][755]PIE:Error: Error Infinite Loop detected in  BP_Interact_NPC , asserted during  Interact with the following  Call Stack
+[2017.06.01-11.24.10:429][755]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.24.10:587][755]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.24.32:454][530]BlueprintLog: New page: Compile BP_Interact_NPC
+[2017.06.01-11.24.32:463][530]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.24.32:463][530]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.24.32:606][530]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.24.32:606][530]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.24.39:425][824]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.01-11.24.39:440][824]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.24.39:440][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.01-11.24.39:440][824]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 1, 2017, 3:24:39 PM)
+[2017.06.01-11.24.39:440][824]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.01-11.24.39:472][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.032149s)
+[2017.06.01-11.24.39:474][824]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.01-11.24.39:474][824]LogPlayLevel: PIE: World Init took: (0.001587s)
+[2017.06.01-11.24.39:474][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.034140s)
+[2017.06.01-11.24.39:514][824]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.01-11.24.39:522][824]LogInit: FAudioDevice initialized.
+[2017.06.01-11.24.39:573][824]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.06.01-11.24.39:576][824]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.24.39:576][824]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.06.01-13.24.39
+[2017.06.01-11.24.39:577][824]LogWorld: Bringing up level for play took: 0.003283
+[2017.06.01-11.24.39:587][824]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.585
+[2017.06.01-11.24.39:588][824]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.24.41:455][894]LogScript:Warning: Infinite script recursion (250 calls) detected - see log for stack trace
+	BP_Interact_NPC_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.BP_Interact_NPC_250
+	Function /Game/System/Interact/BP_Interact_NPC.BP_Interact_NPC_C:ExecuteUbergraph_BP_Interact_NPC:0000
+[2017.06.01-11.24.41:456][894]PIE:Error: Error Infinite Loop detected in  BP_Interact_NPC , asserted during  Event Interact with the following  Call Stack
+[2017.06.01-11.24.41:458][894]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.24.41:616][894]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.27.25:869][855]LogSavePackage: Save=159.60ms
+[2017.06.01-11.27.25:869][855]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/ThirdPersonExampleMap_Auto15A097B584A9A7B7846ECFFA64A6D357F.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap'
+[2017.06.01-11.27.25:870][855]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto1.umap
+[2017.06.01-11.27.25:872][855]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.269
+[2017.06.01-11.27.25:872][855]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.269
+[2017.06.01-11.27.25:876][855]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton] ([1] browsable assets)...
+[2017.06.01-11.27.25:876][855]OBJ SavePackage: Finished generating thumbnails for package [/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton]
+[2017.06.01-11.27.25:890][855]LogSavePackage: Save=6.44ms
+[2017.06.01-11.27.25:890][855]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/UE4_Mannequin_Skeleton_Auto1DF77D1F3462603F8E7CFED8E2EB7A1A7.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/Autosaves/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_Auto1.uasset'
+[2017.06.01-11.27.25:891][855]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/Autosaves/Game/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton_Auto1.uasset
+[2017.06.01-11.27.25:892][855]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/System/Interact/BP_Interact_NPC] ([1] browsable assets)...
+[2017.06.01-11.27.25:974][855]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/System/Interact/BP_Interact_NPC.BP_Interact_NPC]
+[2017.06.01-11.27.25:974][855]OBJ SavePackage: Finished generating thumbnails for package [/Game/System/Interact/BP_Interact_NPC]
+[2017.06.01-11.27.26:006][855]LogSavePackage: Save=24.65ms
+[2017.06.01-11.27.26:006][855]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/BP_Interact_NPC_Auto1D83C469A4374DD23799CC3ADE2AD9245.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/Autosaves/Game/System/Interact/BP_Interact_NPC_Auto1.uasset'
+[2017.06.01-11.27.26:007][855]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/Autosaves/Game/System/Interact/BP_Interact_NPC_Auto1.uasset
+[2017.06.01-11.27.26:008][855]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/System/Interact/BP_Interact_Parent] ([1] browsable assets)...
+[2017.06.01-11.27.26:071][855]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/System/Interact/BP_Interact_Parent.BP_Interact_Parent]
+[2017.06.01-11.27.26:071][855]OBJ SavePackage: Finished generating thumbnails for package [/Game/System/Interact/BP_Interact_Parent]
+[2017.06.01-11.27.26:141][855]LogSavePackage: Save=51.63ms
+[2017.06.01-11.27.26:141][855]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/BP_Interact_Parent_Auto185B9FC2A426EC86856AB7D9EA82CE6C5.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/Autosaves/Game/System/Interact/BP_Interact_Parent_Auto1.uasset'
+[2017.06.01-11.27.26:142][855]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/Autosaves/Game/System/Interact/BP_Interact_Parent_Auto1.uasset
+[2017.06.01-11.27.26:176][855]LogSavePackage: Save=32.19ms
+[2017.06.01-11.27.26:176][855]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/SK_Mannequin_2_Auto1F60D647A456E41AB4CD3E18C10F37055.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_2_Auto1.uasset'
+[2017.06.01-11.27.26:176][855]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/Autosaves/Game/Mannequin/Character/Mesh/SK_Mannequin_2_Auto1.uasset
+[2017.06.01-11.27.26:176][855]LogFileHelpers: Auto-saving content packages took 0.303
+[2017.06.01-11.30.15:118][652]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.30.15:118][652]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.21:958][671]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.21:959][671]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.21:963][671]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.21:964][671]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.22:614][688]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.22:615][688]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.22:631][688]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.22:632][688]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.23:155][702]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.23:155][702]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.23:160][702]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.23:160][702]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.24:972][755]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.24:972][755]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.24:977][755]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.24:977][755]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.25:046][757]BlueprintLog: New page: Compile BP_Interact_NPC
+[2017.06.01-11.32.25:254][757]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.25:599][757]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.25:599][757]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.25:646][757]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.25:647][757]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.41:953][246]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.41:954][246]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.41:962][246]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.41:962][246]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.42:900][281]BlueprintLog: New page: Compile BP_Interact_NPC
+[2017.06.01-11.32.43:100][281]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.43:551][281]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.32.43:551][281]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.37.15:097][490]LogSavePackage: Save=38.33ms
+[2017.06.01-11.37.15:098][490]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/BP_Interact_NPCA389D8CA4CD5217E8A67919368D060D7.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/Interact/BP_Interact_NPC.uasset'
+[2017.06.01-11.37.15:107][490]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/Interact/BP_Interact_NPC.uasset
+[2017.06.01-11.37.33:698][232]LogSavePackage: Save=40.60ms
+[2017.06.01-11.37.33:698][232]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/BP_Interact_Parent5B1617DF41DA664BF2987EA26D2C817A.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/Interact/BP_Interact_Parent.uasset'
+[2017.06.01-11.37.33:706][232]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/Interact/BP_Interact_Parent.uasset
+[2017.06.01-11.37.38:422][393]BlueprintLog: New page: Compile BP_Interact_NPC
+[2017.06.01-11.37.38:428][393]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.37.38:429][393]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.37.38:570][393]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.37.38:571][393]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.37.39:123][412]LogSavePackage: Save=18.74ms
+[2017.06.01-11.37.39:123][412]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/BP_Interact_NPC69447B184C34E3871BA3E6BD58D2502D.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/Interact/BP_Interact_NPC.uasset'
+[2017.06.01-11.37.39:125][412]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/Interact/BP_Interact_NPC.uasset
+[2017.06.01-11.37.41:271][510]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.01-11.37.41:387][510]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.37.41:387][510]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.01-11.37.41:388][510]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 1, 2017, 3:37:41 PM)
+[2017.06.01-11.37.41:388][510]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.01-11.37.41:414][510]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026715s)
+[2017.06.01-11.37.41:416][510]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.01-11.37.41:416][510]LogPlayLevel: PIE: World Init took: (0.001561s)
+[2017.06.01-11.37.41:416][510]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.028627s)
+[2017.06.01-11.37.41:460][510]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.01-11.37.41:469][510]LogInit: FAudioDevice initialized.
+[2017.06.01-11.37.41:523][510]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.06.01-11.37.41:528][510]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.37.41:529][510]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.06.01-13.37.41
+[2017.06.01-11.37.41:529][510]LogWorld: Bringing up level for play took: 0.006150
+[2017.06.01-11.37.41:537][510]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.535
+[2017.06.01-11.37.41:538][510]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.37.43:634][590]LogBlueprintUserMessages: [BP_Interact_NPC_250] INTERACTED
+[2017.06.01-11.37.44:059][607]LogBlueprintUserMessages: [BP_Interact_NPC_250] INTERACTED
+[2017.06.01-11.37.44:286][616]LogBlueprintUserMessages: [BP_Interact_NPC_250] INTERACTED
+[2017.06.01-11.37.44:463][623]LogBlueprintUserMessages: [BP_Interact_NPC_250] INTERACTED
+[2017.06.01-11.37.44:861][639]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.37.44:959][639]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.38.03:963][362]LogSavePackage: Save=127.88ms
+[2017.06.01-11.38.03:964][362]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/ThirdPersonExampleMapD90D977347466A915D2C00920B35BA0B.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.06.01-11.38.03:973][362]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.06.01-11.38.04:333][362]LogSavePackage: Save=313.81ms
+[2017.06.01-11.38.04:334][362]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/ThirdPersonExampleMap_BuiltData33EC13D14C34C22FC3A0C1978EBAFEE4.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.06.01-11.38.04:335][362]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
+[2017.06.01-11.38.35:064][793]LogHttp:Warning: 0000000ED8B34D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.01-11.38.35:064][793]LogHttp:Warning: 0000000ED8B34D00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0xe12ef7fe8 [can pipeline])
+[2017.06.01-11.38.35:064][793]LogHttp:Warning: 0000000ED8B34D00: libcurl info message cache 1 (Re-using existing connection! (#15) with host datarouter.ol.epicgames.com)
+[2017.06.01-11.38.35:064][793]LogHttp:Warning: 0000000ED8B34D00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (107.21.20.6) port 443 (#15))
+[2017.06.01-11.38.35:064][793]LogHttp:Warning: 0000000ED8B34D00: libcurl info message cache 3 (upload completely sent off: 1235 out of 1235 bytes)
+[2017.06.01-11.38.35:064][793]LogHttp:Warning: 0000000ED8B34D00: libcurl info message cache 4 (SSL read: error:00000000:lib(0):func(0):reason(0), errno 10054)
+[2017.06.01-11.38.35:064][793]LogHttp:Warning: 0000000ED8B34D00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.06.01-11.38.35:064][793]LogHttp:Warning: 0000000ED8B34D00: libcurl info message cache 6 (Closing connection 15)
+[2017.06.01-11.38.35:064][793]LogHttp:Warning: 0000000ED8B34D00: libcurl info message cache 7 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B38F7CF46-4B9B-FCAE-2CFE-78AE27EFB0EB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=fcfbc4aa4d85f6bf21276dabbb40bd3b%7Cb29e0076762942358c8c1714e3862d8d%7C0986a093-a08b-42c1-96a7-321ab03751d3&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.06.01-11.38.35:064][793]LogHttp:Warning: 0000000ED8B34D00: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.01-11.38.35:064][793]LogHttp:Warning: 0000000ED8B34D00: libcurl info message cache 9 (Closing connection 16)
+[2017.06.01-11.40.10:777][ 80]LogHttp:Warning: 0000000E071ACB80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.01-11.40.10:777][ 80]LogHttp:Warning: 0000000E071ACB80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.01-11.40.10:777][ 80]LogHttp:Warning: 0000000E071ACB80: libcurl info message cache 1 (Closing connection 17)
+[2017.06.01-11.41.00:030][351]LogMetaData: Removing '/Game/System/NPC/NPC_HUD/NPCHUD.NPCHUD:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/System/NPC/NPC_HUD/NewBlueprint.PackageMetaData'
+[2017.06.01-11.41.00:030][351]LogMetaData: Removing '/Game/System/NPC/NPC_HUD/NPCHUD.SKEL_NPCHUD_C' ref from Metadata '/Game/System/NPC/NPC_HUD/NewBlueprint.PackageMetaData'
+[2017.06.01-11.41.00:030][351]LogMetaData: Removing '/Game/System/NPC/NPC_HUD/NPCHUD.NPCHUD_C' ref from Metadata '/Game/System/NPC/NPC_HUD/NewBlueprint.PackageMetaData'
+[2017.06.01-11.41.00:030][351]LogMetaData: Removing '/Game/System/NPC/NPC_HUD/NPCHUD.NPCHUD:EventGraph.K2Node_Event_0' ref from Metadata '/Game/System/NPC/NPC_HUD/NewBlueprint.PackageMetaData'
+[2017.06.01-11.41.00:030][351]LogMetaData: Removing '/Game/System/NPC/NPC_HUD/NPCHUD.NPCHUD:EventGraph.K2Node_Event_1' ref from Metadata '/Game/System/NPC/NPC_HUD/NewBlueprint.PackageMetaData'
+[2017.06.01-11.41.00:030][351]LogMetaData: Removing '/Game/System/NPC/NPC_HUD/NPCHUD.NPCHUD:EventGraph.K2Node_Event_2' ref from Metadata '/Game/System/NPC/NPC_HUD/NewBlueprint.PackageMetaData'
+[2017.06.01-11.41.00:087][351]LogSavePackage: Save=12.84ms
+[2017.06.01-11.41.00:087][351]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/NPCHUD1156E0ED44977BA330655999FDE858AD.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC_HUD/NPCHUD.uasset'
+[2017.06.01-11.41.00:095][351]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC_HUD/NPCHUD.uasset
+[2017.06.01-11.41.45:990][465]LogHttp:Warning: 0000000E67320B80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.01-11.41.45:990][465]LogHttp:Warning: 0000000E67320B80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.01-11.41.45:990][465]LogHttp:Warning: 0000000E67320B80: libcurl info message cache 1 (Closing connection 18)
+[2017.06.01-11.42.45:392][813]LogLinker: Can't find file '/Game/System/HUD/BP_MainMenu'
+[2017.06.01-11.42.45:392][813]LogLinker: Can't find file '/Game/System/HUD/BP_MainMenu'
+[2017.06.01-11.42.46:791][870]LogHttp:Warning: 0000000E3505F100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.01-11.42.46:791][870]LogHttp:Warning: 0000000E3505F100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.01-11.42.46:791][870]LogHttp:Warning: 0000000E3505F100: libcurl info message cache 1 (Closing connection 19)
+[2017.06.01-11.42.50:731][ 50]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.01-11.43.14:631][798]BlueprintLog: New page: Compile NPCHUD
+[2017.06.01-11.43.19:539][994]LogSavePackage: Save=25.35ms
+[2017.06.01-11.43.19:539][994]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/NPCHUDDF194A5746164D9381037E8716669DC6.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC_HUD/NPCHUD.uasset'
+[2017.06.01-11.43.19:541][994]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC_HUD/NPCHUD.uasset
+[2017.06.01-11.43.21:411][ 69]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.01-11.43.21:882][ 85]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.01-11.44.08:948][889]LogHttp:Warning: 0000000E070BCD00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.01-11.44.08:948][889]LogHttp:Warning: 0000000E070BCD00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.01-11.44.08:948][889]LogHttp:Warning: 0000000E070BCD00: libcurl info message cache 1 (Closing connection 20)
+[2017.06.01-11.44.30:246][624]LogSlate: Took 0.002945 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.06.01-11.47.10:481][ 87]BlueprintLog: New page: Compile NPCWidget
+[2017.06.01-11.47.11:265][101]LogSavePackage: Save=48.32ms
+[2017.06.01-11.47.11:265][101]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/NPCWidgetD2CC31C6475FDBF839C0D18F5021F837.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC_HUD/NPCWidget.uasset'
+[2017.06.01-11.47.11:268][101]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC_HUD/NPCWidget.uasset
+[2017.06.01-11.47.39:141][300]LogSavePackage: Save=51.28ms
+[2017.06.01-11.47.39:141][300]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Saved/NPCHUDE9C5E56F485E6C457F4BD99E21DC1023.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC_HUD/NPCHUD.uasset'
+[2017.06.01-11.47.39:143][300]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_Interact/Content/System/NPC/NPC_HUD/NPCHUD.uasset
+[2017.06.01-11.47.55:698][ 76]BlueprintLog: New page: Compile NPCHUD
+[2017.06.01-11.48.26:943][998]LogHttp:Warning: 0000000E67F57D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.01-11.48.26:943][998]LogHttp:Warning: 0000000E67F57D00: libcurl info message cache 0 (Connection 21 seems to be dead!)
+[2017.06.01-11.48.26:943][998]LogHttp:Warning: 0000000E67F57D00: libcurl info message cache 1 (Closing connection 21)
+[2017.06.01-11.48.26:943][998]LogHttp:Warning: 0000000E67F57D00: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.06.01-11.48.26:943][998]LogHttp:Warning: 0000000E67F57D00: libcurl info message cache 3 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.01-11.48.26:943][998]LogHttp:Warning: 0000000E67F57D00: libcurl info message cache 4 (Closing connection 22)
+[2017.06.01-11.49.15:500][243]Cmd: TRANSACTION UNDO
+[2017.06.01-11.49.15:500][243]LogEditorTransaction: Undo Set actor location
+[2017.06.01-11.49.15:535][243]LogActorComponent: ~FComponentReregisterContext: (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.NPC_278.CollisionCylinder) Component already registered.
+[2017.06.01-11.50.35:795][218]BlueprintLog: New page: Compile BP_Interact_NPC
+[2017.06.01-11.50.35:808][218]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.50.35:811][218]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.50.35:835][218]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_C_16.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.50.35:836][218]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_C_16.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.50.35:948][218]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.50.35:949][218]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.50.35:950][218]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_C_16.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.50.35:950][218]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_C_16.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.50.44:683][424]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.06.01-11.50.44:775][424]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.50.44:775][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.01-11.50.44:775][424]PIE: New page: PIE session: ThirdPersonExampleMap (Jun 1, 2017, 3:50:44 PM)
+[2017.06.01-11.50.44:775][424]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2017.06.01-11.50.44:799][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024198s)
+[2017.06.01-11.50.44:800][424]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.06.01-11.50.44:801][424]LogPlayLevel: PIE: World Init took: (0.001273s)
+[2017.06.01-11.50.44:801][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.025918s)
+[2017.06.01-11.50.44:838][424]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.06.01-11.50.44:846][424]LogInit: FAudioDevice initialized.
+[2017.06.01-11.50.44:889][424]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.06.01-11.50.44:891][424]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.50.44:892][424]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2017.06.01-13.50.44
+[2017.06.01-11.50.44:893][424]LogWorld: Bringing up level for play took: 0.003243
+[2017.06.01-11.50.44:904][424]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.098
+[2017.06.01-11.50.44:904][424]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.50.47:286][515]LogBlueprintUserMessages: [BP_Interact_NPC_250] INTERACTED
+[2017.06.01-11.50.48:885][582]LogBlueprintUserMessages: [BP_Interact_NPC_250] INTERACTED
+[2017.06.01-11.50.52:355][728]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.50.52:439][728]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2017.06.01-11.51.13:900][571]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.51.13:904][571]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.51.13:905][571]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_C_16.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.51.13:906][571]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_C_16.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.52.39:560][ 87]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.52.39:560][ 87]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.52.39:561][ 87]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_C_16.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.52.39:562][ 87]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_C_16.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.52.47:675][425]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.52.47:678][425]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.52.47:679][425]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_C_16.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.52.47:679][425]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_C_16.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.57.16:307][905]LogHttp:Warning: 0000000E1AE41480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2017.06.01-11.57.16:307][905]LogHttp:Warning: 0000000E1AE41480: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0xe12ef7a60 [can pipeline])
+[2017.06.01-11.57.16:307][905]LogHttp:Warning: 0000000E1AE41480: libcurl info message cache 1 (Re-using existing connection! (#26) with host datarouter.ol.epicgames.com)
+[2017.06.01-11.57.16:307][905]LogHttp:Warning: 0000000E1AE41480: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (107.21.20.6) port 443 (#26))
+[2017.06.01-11.57.16:307][905]LogHttp:Warning: 0000000E1AE41480: libcurl info message cache 3 (upload completely sent off: 674 out of 674 bytes)
+[2017.06.01-11.57.16:307][905]LogHttp:Warning: 0000000E1AE41480: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2017.06.01-11.57.16:307][905]LogHttp:Warning: 0000000E1AE41480: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2017.06.01-11.57.16:307][905]LogHttp:Warning: 0000000E1AE41480: libcurl info message cache 6 (Closing connection 26)
+[2017.06.01-11.57.16:307][905]LogHttp:Warning: 0000000E1AE41480: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2017.06.01-11.57.16:307][905]LogHttp:Warning: 0000000E1AE41480: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B38F7CF46-4B9B-FCAE-2CFE-78AE27EFB0EB%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.2-3416026%2B%2B%2BUE4%2BRelease-4.15&UserID=fcfbc4aa4d85f6bf21276dabbb40bd3b%7Cb29e0076762942358c8c1714e3862d8d%7C0986a093-a08b-42c1-96a7-321ab03751d3&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2017.06.01-11.57.16:307][905]LogHttp:Warning: 0000000E1AE41480: libcurl info message cache 9 (Could not resolve host: datarouter.ol.epicgames.com)
+[2017.06.01-11.57.16:307][905]LogHttp:Warning: 0000000E1AE41480: libcurl info message cache 10 (Closing connection 27)
+[2017.06.01-11.57.40:657][962]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.57.40:661][962]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.57.40:663][962]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_C_16.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.57.40:664][962]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_C_16.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.57.59:117][723]LogEditorTransaction: Undo Move Node
+[2017.06.01-11.57.59:121][723]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.57.59:121][723]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_250.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.57.59:123][723]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_C_16.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.57.59:123][723]LogPhysics:Warning: Initialising Body : Scale3D is (nearly) zero: Component: BP_Interact_NPC_C_16.interactMesh 1M_Cube_Chamfer 
+[2017.06.01-11.58.00:798][785]LogEditorTransaction: Undo Paste clipboard contents
+[2017.06.01-11.58.10:250][785]LogCrashTracker: 
+
+
+[2017.06.01-11.58.10:250][785]LogCrashTracker: 
+
+
+[2017.06.01-11.58.10:250][785]LogWindows:Error: === Critical error: ===
+[2017.06.01-11.58.10:250][785]LogWindows:Error: 
+[2017.06.01-11.58.10:250][785]LogWindows:Error: Fatal error!
+[2017.06.01-11.58.10:250][785]LogWindows:Error: 
+[2017.06.01-11.58.10:250][785]LogWindows:Error: Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x00000000
+[2017.06.01-11.58.10:250][785]LogWindows:Error: 
+[2017.06.01-11.58.10:250][785]LogWindows:Error: UE4Editor-Engine.dll!0x0000000068C20A9D
+[2017.06.01-11.58.10:250][785]LogWindows:Error: UE4Editor-Engine.dll!0x0000000068C1F94D
+[2017.06.01-11.58.10:250][785]LogWindows:Error: UE4Editor-BlueprintGraph.dll!0x0000000064D01C70
+[2017.06.01-11.58.10:250][785]LogWindows:Error: UE4Editor-UnrealEd.dll!0x0000000067071245
+[2017.06.01-11.58.10:250][785]LogWindows:Error: UE4Editor-UnrealEd.dll!0x000000006705E04D
+[2017.06.01-11.58.10:250][785]LogWindows:Error: UE4Editor-UnrealEd.dll!0x000000006703092D
+[2017.06.01-11.58.10:250][785]LogWindows:Error: UE4Editor-UnrealEd.dll!0x0000000067077D92
+[2017.06.01-11.58.10:250][785]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000658D1941
+[2017.06.01-11.58.10:250][785]LogWindows:Error: UE4Editor-Kismet.dll!0x00000000658D63E6
+[2017.06.01-11.58.10:250][785]LogWindows:Error: UE4Editor-Slate.dll!0x00000000736F8894
+[2017.06.01-11.58.10:250][785]LogWindows:Error: UE4Editor-Slate.dll!0x000000007373DBC2
+[2017.06.01-11.58.10:251][785]LogWindows:Error: UE4Editor-UnrealEd.dll!0x000000006778756E
+[2017.06.01-11.58.10:251][785]LogWindows:Error: UE4Editor-UnrealEd.dll!0x0000000067771924
+[2017.06.01-11.58.10:251][785]LogWindows:Error: UE4Editor-Slate.dll!0x00000000736E31D4
+[2017.06.01-11.58.10:251][785]LogWindows:Error: UE4Editor-Slate.dll!0x00000000736B376E
+[2017.06.01-11.58.10:251][785]LogWindows:Error: UE4Editor-Slate.dll!0x00000000736B5366
+[2017.06.01-11.58.10:251][785]LogWindows:Error: UE4Editor-Slate.dll!0x000000007373F449
+[2017.06.01-11.58.10:251][785]LogWindows:Error: UE4Editor-Slate.dll!0x000000007372E3C8
+[2017.06.01-11.58.10:251][785]LogWindows:Error: UE4Editor-Core.dll!0x000000007528CB3C
+[2017.06.01-11.58.10:251][785]LogWindows:Error: UE4Editor-Core.dll!0x00000000752767C1
+[2017.06.01-11.58.10:251][785]LogWindows:Error: UE4Editor-Core.dll!0x000000007528EA1C
+[2017.06.01-11.58.10:251][785]LogWindows:Error: UE4Editor-Core.dll!0x00000000752726E9
+[2017.06.01-11.58.10:251][785]LogWindows:Error: USER32.dll!0x000000009F8224FD
+[2017.06.01-11.58.10:251][785]LogWindows:Error: USER32.dll!0x000000009F822357
+[2017.06.01-11.58.10:251][785]LogWindows:Error: UE4Editor-Core.dll!0x000000007528F326
+[2017.06.01-11.58.10:251][785]LogWindows:Error: UE4Editor.exe!0x000000003F07D790
+[2017.06.01-11.58.10:251][785]LogWindows:Error: UE4Editor.exe!0x000000003F06EB40
+[2017.06.01-11.58.10:251][785]LogWindows:Error: UE4Editor.exe!0x000000003F06EBBA
+[2017.06.01-11.58.10:251][785]LogWindows:Error: UE4Editor.exe!0x000000003F080A29
+[2017.06.01-11.58.10:251][785]LogWindows:Error: UE4Editor.exe!0x000000003F0822B6
+[2017.06.01-11.58.10:251][785]LogWindows:Error: KERNEL32.DLL!0x000000009D6913D2
+[2017.06.01-11.58.10:251][785]LogWindows:Error: ntdll.dll!0x000000009F9C54E4
+[2017.06.01-11.58.10:251][785]LogWindows:Error: ntdll.dll!0x000000009F9C54E4
+[2017.06.01-11.58.10:251][785]LogWindows:Error: 
+[2017.06.01-11.58.10:322][785]LogExit: Executing StaticShutdownAfterError
+[2017.06.01-11.58.10:328][785]LogWindows: FPlatformMisc::RequestExit(1)
+[2017.06.01-11.58.10:328][785]Log file closed, 06/01/17 13:58:10

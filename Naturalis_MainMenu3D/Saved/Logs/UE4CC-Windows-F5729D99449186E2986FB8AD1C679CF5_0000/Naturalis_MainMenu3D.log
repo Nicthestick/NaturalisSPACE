@@ -1,0 +1,1231 @@
+﻿Log file open, 05/29/17 09:47:37
+LogInit:Display: Running engine for game: Naturalis_MainMenu3D
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1851577217) SRandInit(1851577217).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.053007
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3416026
+LogInit: Engine Version: 4.15.2-3416026+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May  1 2017 13:11:28
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Program Files (x86)/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.05.29-07.47.38:290][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.29-07.47.38:290][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.05.29-07.47.38:321][  0]LogInit: Computer: MSI_DAVE
+[2017.05.29-07.47.38:321][  0]LogInit: User: Dave
+[2017.05.29-07.47.38:321][  0]LogInit: CPU Page size=65536, Cores=2
+[2017.05.29-07.47.38:321][  0]LogInit: High frequency timer resolution =2.825494 MHz
+[2017.05.29-07.47.38:322][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.05.29-07.47.38:322][  0]LogMemory: Platform Memory Stats for Windows
+[2017.05.29-07.47.38:322][  0]LogMemory: Process Physical Memory: 260.93 MB used, 260.93 MB peak
+[2017.05.29-07.47.38:322][  0]LogMemory: Process Virtual Memory: 261.98 MB used, 261.98 MB peak
+[2017.05.29-07.47.38:322][  0]LogMemory: Physical Memory: 4109.96 MB used,  3999.40 MB free, 8109.36 MB total
+[2017.05.29-07.47.38:322][  0]LogMemory: Virtual Memory: 621.47 MB used,  3999.40 MB free, 134217728.00 MB total
+[2017.05.29-07.47.38:386][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2017.05.29-07.47.39:068][  0]LogD3D11RHI: D3D11 adapters:
+[2017.05.29-07.47.39:099][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940M' (Feature Level 11_0)
+[2017.05.29-07.47.39:099][  0]LogD3D11RHI:       1980/0/4054 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.05.29-07.47.39:108][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2017.05.29-07.47.39:108][  0]LogD3D11RHI:       0/0/1792 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.05.29-07.47.39:110][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.05.29-07.47.39:110][  0]LogD3D11RHI:       0/0/256 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.05.29-07.47.39:110][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.05.29-07.47.39:115][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.05.29-07.47.39:115][  0]LogD3D11RHI:     GPU DeviceId: 0x1347 (for the marketing name, search the web for "GPU Device Id")
+[2017.05.29-07.47.39:115][  0]LogWindows: EnumDisplayDevices:
+[2017.05.29-07.47.39:115][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2017.05.29-07.47.39:116][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.29-07.47.39:116][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2017.05.29-07.47.39:116][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.05.29-07.47.39:116][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940M
+[2017.05.29-07.47.39:116][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.05.29-07.47.39:116][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.05.29-07.47.39:116][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.05.29-07.47.39:129][  0]LogD3D11RHI: [Aftermath] Aftermath enabled but failed to initialize due to reason: DriverVersionNotSupported
+[2017.05.29-07.47.39:129][  0]LogD3D11RHI: Async texture creation enabled
+[2017.05.29-07.47.39:146][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.05.29-07.47.39:146][  0]LogShaderCompilers: Guid format shader working directory is -40 characters bigger than the processId version (C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Intermediate/Shaders/WorkingDirectory/5384/).
+[2017.05.29-07.47.39:146][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Dave/AppData/Local/Temp/UnrealShaderWorkingDir/B72E8C82435D20B1A94767ABE3F4FF21/'.
+[2017.05.29-07.47.39:146][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.05.29-07.47.40:292][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.05.29-07.47.40:334][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.05.29-07.47.40:374][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.05.29-07.47.40:413][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.05.29-07.47.40:454][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.05.29-07.47.40:502][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.05.29-07.47.40:545][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.05.29-07.47.40:585][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.05.29-07.47.40:615][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.05.29-07.47.40:655][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.05.29-07.47.40:695][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.05.29-07.47.40:735][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.05.29-07.47.40:776][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.05.29-07.47.40:817][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.05.29-07.47.40:857][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.05.29-07.47.40:960][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.05.29-07.47.40:960][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.05.29-07.47.41:103][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.05.29-07.47.41:194][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.05.29-07.47.41:229][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.05.29-07.47.41:276][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.05.29-07.47.41:428][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.05.29-07.47.41:468][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.05.29-07.47.41:513][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.05.29-07.47.41:513][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.05.29-07.47.41:869][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.05.29-07.47.41:926][  0]LogDerivedDataCache: Loaded boot cache 0.06s 50MB C:/Users/Dave/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.29-07.47.41:926][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Dave/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.05.29-07.47.41:926][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.05.29-07.47.41:926][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.05.29-07.47.41:926][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.05.29-07.47.41:926][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.05.29-07.47.41:945][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.05.29-07.47.41:957][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Dave/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.05.29-07.47.41:966][  0]LogSlate: Using Freetype 2.6.0
+[2017.05.29-07.47.41:967][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.29-07.47.41:967][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.05.29-07.47.42:257][  0]LogInit: Selected Device Profile: [Windows]
+[2017.05.29-07.47.42:260][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.05.29-07.47.42:422][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.05.29-07.47.42:450][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.05.29-07.47.42:477][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.05.29-07.47.42:477][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.05.29-07.47.42:477][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.05.29-07.47.42:992][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: naturalis_mainmenu3d, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 98191105
+[2017.05.29-07.47.43:031][  0]LogAssetRegistry: FAssetRegistry took 0.0220 seconds to start up
+[2017.05.29-07.47.43:080][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.030243 seconds
+[2017.05.29-07.47.43:086][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.05.29-07.47.43:086][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.05.29-07.47.43:086][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.05.29-07.47.43:126][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.05.29-07.47.44:269][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.05.29-07.47.44:297][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.05.29-07.47.44:631][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.05.29-07.47.44:916][  0]SourceControl: Info Source control is disabled
+[2017.05.29-07.47.44:950][  0]SourceControl: Info Source control is disabled
+[2017.05.29-07.47.44:978][  0]SourceControl: Info Source control is disabled
+[2017.05.29-07.47.45:005][  0]SourceControl: Info Source control is disabled
+[2017.05.29-07.47.45:774][  0]LogEngine: Initializing Engine...
+[2017.05.29-07.47.45:775][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.05.29-07.47.45:887][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.05.29-07.47.45:887][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.05.29-07.47.45:968][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.05.29-07.47.45:973][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.29-07.47.45:993][  0]LogInit: FAudioDevice initialized.
+[2017.05.29-07.47.46:021][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Dave/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.05.29-07.47.46:029][  0]LogInit: Texture streaming: Enabled
+[2017.05.29-07.47.46:087][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.05.29-07.47.46:260][  0]LogInit: Transaction tracking system initialized
+[2017.05.29-07.47.46:470][  0]BlueprintLog: New page: Editor Load
+[2017.05.29-07.47.47:040][  0]LocalizationService: Info Localization service is disabled
+[2017.05.29-07.47.47:457][  0]LogConsoleResponse:Display: 
+[2017.05.29-07.47.47:681][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.05.29-07.47.47:681][  0]LogCook:Display: Mobile HDR setting 1
+[2017.05.29-07.47.48:307][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Content/' took 0.02s
+[2017.05.29-07.47.48:307][  0]SourceControl: Info Source control is disabled
+[2017.05.29-07.47.48:307][  0]Cmd: MAP LOAD FILE="C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.05.29-07.47.48:308][  0]LightingResults: New page: Lighting Build
+[2017.05.29-07.47.48:332][  0]MapCheck: New page: Map Check
+[2017.05.29-07.47.48:332][  0]LightingResults: New page: Lighting Build
+[2017.05.29-07.47.48:762][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.29-07.47.48:833][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.05.29-07.47.48:834][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.05.29-07.47.48:862][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 28.216ms to complete.
+[2017.05.29-07.47.48:862][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.555
+[2017.05.29-07.47.49:262][  0]LogCollectionManager: Loaded 0 collections in 0.000748 seconds
+[2017.05.29-07.47.49:352][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/Collections/' took 0.01s
+[2017.05.29-07.47.49:352][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Content/Developers/Dave/Collections/' took 0.01s
+[2017.05.29-07.47.49:352][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Content/Collections/' took 0.01s
+[2017.05.29-07.47.49:352][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.05.29-07.47.49:370][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2245 classes and 453 folders.
+[2017.05.29-07.47.49:423][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.29-07.47.50:270][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.05.29-07.47.50:308][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.05.29-07.47.50:373][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.05.29-07.47.50:404][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.05.29-07.47.50:465][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.05.29-07.47.50:465][  0]LogLoad: (Engine Initialization) Total time: 14.24 seconds
+[2017.05.29-07.47.50:465][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2017.05.29-07.47.50:465][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.05.29-07.47.50:465][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.05.29-07.47.50:806][  0]LogOcInput: OculusInput pre-init called
+[2017.05.29-07.47.50:851][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.05.29-07.47.50:852][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.29-07.47.50:856][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.05.29-07.47.50:878][  0]LogSlate: Took 0.017150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.05.29-07.47.51:247][  0]LogSlate: Took 0.018860 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.29-07.47.51:278][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:2).
+[2017.05.29-07.47.51:494][  1]LogAssetRegistry: Asset discovery search completed in 8.4852 seconds
+[2017.05.29-07.47.51:494][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000007 seconds (found 0 objects)
+[2017.05.29-07.47.51:494][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.05.29-07.57.31:270][843]LogSlate: Took 0.035625 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.05.29-07.57.49:703][314]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.29-07.57.57:374][570]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.05.29-07.57.57:467][570]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.025
+[2017.05.29-07.57.57:469][570]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/System/Misc/MainMenuMaterials/NewMaterial] ([1] browsable assets)...
+[2017.05.29-07.57.57:501][570]OBJ SavePackage:     Rendered thumbnail for [Material /Game/System/Misc/MainMenuMaterials/NewMaterial.NewMaterial]
+[2017.05.29-07.57.57:501][570]OBJ SavePackage: Finished generating thumbnails for package [/Game/System/Misc/MainMenuMaterials/NewMaterial]
+[2017.05.29-07.57.57:518][570]LogSavePackage: Save=14.86ms
+[2017.05.29-07.57.57:518][570]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/NewMaterial_Auto174F3EBFE441A7A103C3A0D95FC945779.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/Autosaves/Game/System/Misc/MainMenuMaterials/NewMaterial_Auto1.uasset'
+[2017.05.29-07.57.57:538][570]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/Autosaves/Game/System/Misc/MainMenuMaterials/NewMaterial_Auto1.uasset
+[2017.05.29-07.57.57:538][570]LogFileHelpers: Auto-saving content packages took 0.071
+[2017.05.29-07.58.05:823][859]Cmd: EDIT COPY
+[2017.05.29-07.58.06:240][878]Cmd: EDIT PASTE
+[2017.05.29-07.58.32:309][ 57]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.29-07.59.18:845][474]EditorErrors: New page: Actor attachment
+[2017.05.29-08.00.09:138][925]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2_2, compiling. 
+[2017.05.29-08.00.09:140][925]LogTemp:Display: Added material ShaderMap 0x000000C5B4B26E80 with Material 0x000000C5B080FE80 to ShaderMapsBeingCompiled
+[2017.05.29-08.00.09:148][925]LogTemp:Display: Kicking off shader compilation for M_Sky_Panning_Clouds2_2, GameThreadShaderMap 0x000000C5B4B26E80
+[2017.05.29-08.00.10:754][986]LogTemp:Display: Finished compile of shader map 0x000000C5B4B26E80
+[2017.05.29-08.00.10:754][986]LogTemp:Display: Shader map M_Sky_Panning_Clouds2_2 complete, GameThreadShaderMap 0x000000C5B4B26E80, marking material M_Sky_Panning_Clouds2_2 as finished
+[2017.05.29-08.00.10:754][986]LogTemp:Display: Marking material as finished 0x000000C5B080FE80
+[2017.05.29-08.00.39:317][848]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/M_Planet_Atmosphere" FILE="../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset" SILENT=true
+[2017.05.29-08.00.39:342][848]LogSavePackage: Save=23.71ms
+[2017.05.29-08.00.39:342][848]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/M_Planet_AtmosphereEF59D79849F8CA2D4D0814B9B8298364.tmp' to '../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset'
+[2017.05.29-08.00.39:347][848]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset
+[2017.05.29-08.01.01:062][670]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.01.01:064][670]LogTemp:Display: Added material ShaderMap 0x000000C582B68100 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.01.01:066][670]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C582B68100
+[2017.05.29-08.01.01:315][670]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.01.01:316][670]LogTemp:Display: Added material ShaderMap 0x000000C5BAAD6E80 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.01.01:318][670]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BAAD6E80
+[2017.05.29-08.01.01:319][670]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.01.01:356][670]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_12, compiling. 
+[2017.05.29-08.01.01:357][670]LogTemp:Display: Added material ShaderMap 0x000000C5BAAD5980 with Material 0x000000C5BAC32800 to ShaderMapsBeingCompiled
+[2017.05.29-08.01.01:361][670]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_12, GameThreadShaderMap 0x000000C5BAAD5980
+[2017.05.29-08.01.01:362][670]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_13, compiling. 
+[2017.05.29-08.01.01:364][670]LogTemp:Display: Added material ShaderMap 0x000000C5BAAD4480 with Material 0x000000C5BAC31600 to ShaderMapsBeingCompiled
+[2017.05.29-08.01.01:369][670]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_13, GameThreadShaderMap 0x000000C5BAAD4480
+[2017.05.29-08.01.01:370][670]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_14, compiling. 
+[2017.05.29-08.01.01:371][670]LogTemp:Display: Added material ShaderMap 0x000000C5BABF0800 with Material 0x000000C5BAC30A00 to ShaderMapsBeingCompiled
+[2017.05.29-08.01.01:375][670]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_14, GameThreadShaderMap 0x000000C5BABF0800
+[2017.05.29-08.01.01:395][670]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_15, compiling. 
+[2017.05.29-08.01.01:396][670]LogTemp:Display: Added material ShaderMap 0x000000C5BABF1D00 with Material 0x000000C58D940A00 to ShaderMapsBeingCompiled
+[2017.05.29-08.01.01:402][670]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_15, GameThreadShaderMap 0x000000C5BABF1D00
+[2017.05.29-08.01.01:411][670]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2017.05.29-08.01.01:412][670]LogTemp:Display: Added material ShaderMap 0x000000C5B4B42780 with Material 0x000000C5B0645600 to ShaderMapsBeingCompiled
+[2017.05.29-08.01.01:417][670]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_3, GameThreadShaderMap 0x000000C5B4B42780
+[2017.05.29-08.01.01:419][670]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_16, compiling. 
+[2017.05.29-08.01.01:420][670]LogTemp:Display: Added material ShaderMap 0x000000C5B4B41280 with Material 0x000000C5B0646B00 to ShaderMapsBeingCompiled
+[2017.05.29-08.01.01:423][670]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_16, GameThreadShaderMap 0x000000C5B4B41280
+[2017.05.29-08.01.01:432][670]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_17, compiling. 
+[2017.05.29-08.01.01:433][670]LogTemp:Display: Added material ShaderMap 0x000000C5BA973C80 with Material 0x000000C5B0647100 to ShaderMapsBeingCompiled
+[2017.05.29-08.01.01:436][670]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_17, GameThreadShaderMap 0x000000C5BA973C80
+[2017.05.29-08.01.01:447][670]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_7, compiling. 
+[2017.05.29-08.01.01:448][670]LogTemp:Display: Added material ShaderMap 0x000000C5BA972780 with Material 0x000000C5BA94FA00 to ShaderMapsBeingCompiled
+[2017.05.29-08.01.01:452][670]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_7, GameThreadShaderMap 0x000000C5BA972780
+[2017.05.29-08.01.01:477][670]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.05.29-08.01.01:478][670]LogTemp:Display: Added material ShaderMap 0x000000C5BA971280 with Material 0x000000C5BA94F400 to ShaderMapsBeingCompiled
+[2017.05.29-08.01.01:483][670]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_5, GameThreadShaderMap 0x000000C5BA971280
+[2017.05.29-08.01.01:492][670]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2017.05.29-08.01.01:493][670]LogTemp:Display: Added material ShaderMap 0x000000C5BA8F7580 with Material 0x000000C5BA94EB00 to ShaderMapsBeingCompiled
+[2017.05.29-08.01.01:497][670]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_8, GameThreadShaderMap 0x000000C5BA8F7580
+[2017.05.29-08.01.01:503][670]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.05.29-08.01.01:504][670]LogTemp:Display: Added material ShaderMap 0x000000C5BA8F5D00 with Material 0x000000C5BA94E200 to ShaderMapsBeingCompiled
+[2017.05.29-08.01.01:508][670]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_0, GameThreadShaderMap 0x000000C5BA8F5D00
+[2017.05.29-08.01.01:545][670]LogSlate: Took 0.026543 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.05.29-08.01.02:218][671]LogTemp:Display: Finished compile of shader map 0x000000C5BAAD6E80
+[2017.05.29-08.01.02:218][671]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BAAD6E80, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.01.02:218][671]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.01.02:220][671]LogTemp:Display: Finished compile of shader map 0x000000C5BAAD5980
+[2017.05.29-08.01.02:220][671]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_12 complete, GameThreadShaderMap 0x000000C5BAAD5980, marking material FMatExpressionPreview MaterialExpressionVectorParameter_12 as finished
+[2017.05.29-08.01.02:221][671]LogTemp:Display: Marking material as finished 0x000000C5BAC32800
+[2017.05.29-08.01.02:224][671]MaterialEditorStats: Info Base pass shader without light map: 85 instructions
+[2017.05.29-08.01.02:224][671]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2017.05.29-08.01.02:224][671]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.29-08.01.02:730][684]LogTemp:Display: Finished compile of shader map 0x000000C5BAAD4480
+[2017.05.29-08.01.02:730][684]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_13 complete, GameThreadShaderMap 0x000000C5BAAD4480, marking material FMatExpressionPreview MaterialExpressionVectorParameter_13 as finished
+[2017.05.29-08.01.02:730][684]LogTemp:Display: Marking material as finished 0x000000C5BAC31600
+[2017.05.29-08.01.03:332][700]LogTemp:Display: Finished compile of shader map 0x000000C5BABF0800
+[2017.05.29-08.01.03:332][700]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_14 complete, GameThreadShaderMap 0x000000C5BABF0800, marking material FMatExpressionPreview MaterialExpressionVectorParameter_14 as finished
+[2017.05.29-08.01.03:332][700]LogTemp:Display: Marking material as finished 0x000000C5BAC30A00
+[2017.05.29-08.01.03:759][711]LogTemp:Display: Finished compile of shader map 0x000000C5BABF1D00
+[2017.05.29-08.01.03:759][711]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_15 complete, GameThreadShaderMap 0x000000C5BABF1D00, marking material FMatExpressionPreview MaterialExpressionVectorParameter_15 as finished
+[2017.05.29-08.01.03:759][711]LogTemp:Display: Marking material as finished 0x000000C58D940A00
+[2017.05.29-08.01.04:269][723]LogTemp:Display: Finished compile of shader map 0x000000C5B4B42780
+[2017.05.29-08.01.04:269][723]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_3 complete, GameThreadShaderMap 0x000000C5B4B42780, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_3 as finished
+[2017.05.29-08.01.04:269][723]LogTemp:Display: Marking material as finished 0x000000C5B0645600
+[2017.05.29-08.01.04:811][737]LogTemp:Display: Finished compile of shader map 0x000000C5B4B41280
+[2017.05.29-08.01.04:811][737]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_16 complete, GameThreadShaderMap 0x000000C5B4B41280, marking material FMatExpressionPreview MaterialExpressionVectorParameter_16 as finished
+[2017.05.29-08.01.04:811][737]LogTemp:Display: Marking material as finished 0x000000C5B0646B00
+[2017.05.29-08.01.05:149][745]LogTemp:Display: Finished compile of shader map 0x000000C5BA973C80
+[2017.05.29-08.01.05:149][745]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_17 complete, GameThreadShaderMap 0x000000C5BA973C80, marking material FMatExpressionPreview MaterialExpressionVectorParameter_17 as finished
+[2017.05.29-08.01.05:149][745]LogTemp:Display: Marking material as finished 0x000000C5B0647100
+[2017.05.29-08.01.05:801][762]LogTemp:Display: Finished compile of shader map 0x000000C5BA972780
+[2017.05.29-08.01.05:801][762]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_7 complete, GameThreadShaderMap 0x000000C5BA972780, marking material FMatExpressionPreview MaterialExpressionTextureSample_7 as finished
+[2017.05.29-08.01.05:801][762]LogTemp:Display: Marking material as finished 0x000000C5BA94FA00
+[2017.05.29-08.01.06:341][776]LogTemp:Display: Finished compile of shader map 0x000000C5BA971280
+[2017.05.29-08.01.06:341][776]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_5 complete, GameThreadShaderMap 0x000000C5BA971280, marking material FMatExpressionPreview MaterialExpressionTextureSample_5 as finished
+[2017.05.29-08.01.06:341][776]LogTemp:Display: Marking material as finished 0x000000C5BA94F400
+[2017.05.29-08.01.06:683][784]LogTemp:Display: Finished compile of shader map 0x000000C5BA8F7580
+[2017.05.29-08.01.06:683][784]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_8 complete, GameThreadShaderMap 0x000000C5BA8F7580, marking material FMatExpressionPreview MaterialExpressionTextureSample_8 as finished
+[2017.05.29-08.01.06:683][784]LogTemp:Display: Marking material as finished 0x000000C5BA94EB00
+[2017.05.29-08.01.07:049][793]LogTemp:Display: Finished compile of shader map 0x000000C5BA8F5D00
+[2017.05.29-08.01.07:049][793]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_0 complete, GameThreadShaderMap 0x000000C5BA8F5D00, marking material FMatExpressionPreview MaterialExpressionTextureSample_0 as finished
+[2017.05.29-08.01.07:049][793]LogTemp:Display: Marking material as finished 0x000000C5BA94E200
+[2017.05.29-08.02.56:462][594]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.02.56:463][594]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Planet_Atmosphere for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.29-08.02.56:463][594]LogMaterial:Warning: 	(Node SphereMask) Missing input A
+[2017.05.29-08.02.56:463][594]LogMaterial:Warning: 	(Node Clamp) Missing Clamp input
+[2017.05.29-08.02.56:463][594]LogMaterial:Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (1 / 1)
+[2017.05.29-08.02.56:463][594]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.02.56:463][594]MaterialEditorStats:Error: Error [SM5] (Node SphereMask) Missing input A
+[2017.05.29-08.02.56:463][594]MaterialEditorStats:Error: Error [SM5] (Node Clamp) Missing Clamp input
+[2017.05.29-08.02.59:500][723]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.02.59:501][723]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Planet_Atmosphere for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.29-08.02.59:501][723]LogMaterial:Warning: 	(Node SphereMask) Missing input A
+[2017.05.29-08.02.59:501][723]LogMaterial:Warning: 	(Node Clamp) Missing Clamp input
+[2017.05.29-08.02.59:501][723]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.03.03:547][899]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.03.03:548][899]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Planet_Atmosphere for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.29-08.03.03:548][899]LogMaterial:Warning: 	(Node Clamp) Missing Clamp input
+[2017.05.29-08.03.03:548][899]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.03.03:549][899]MaterialEditorStats:Error: Error [SM5] (Node Clamp) Missing Clamp input
+[2017.05.29-08.03.33:386][161]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.03.33:386][161]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Planet_Atmosphere for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.29-08.03.33:386][161]LogMaterial:Warning: 	(Node Clamp) Missing Clamp input
+[2017.05.29-08.03.33:386][161]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.03.33:422][161]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_16, compiling. 
+[2017.05.29-08.03.33:423][161]LogTemp:Display: Added material ShaderMap 0x000000C5B6900F00 with Material 0x000000C5BEFED000 to ShaderMapsBeingCompiled
+[2017.05.29-08.03.33:428][161]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_16, GameThreadShaderMap 0x000000C5B6900F00
+[2017.05.29-08.03.34:363][195]LogTemp:Display: Finished compile of shader map 0x000000C5B6900F00
+[2017.05.29-08.03.34:363][195]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_16 complete, GameThreadShaderMap 0x000000C5B6900F00, marking material FMatExpressionPreview MaterialExpressionVectorParameter_16 as finished
+[2017.05.29-08.03.34:363][195]LogTemp:Display: Marking material as finished 0x000000C5BEFED000
+[2017.05.29-08.03.48:035][783]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.03.48:035][783]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Planet_Atmosphere for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.29-08.03.48:035][783]LogMaterial:Warning: 	(Node Clamp) Missing Clamp input
+[2017.05.29-08.03.48:035][783]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.03.48:061][783]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_17, compiling. 
+[2017.05.29-08.03.48:062][783]LogTemp:Display: Added material ShaderMap 0x000000C5BF5AA780 with Material 0x000000C5BE20AE00 to ShaderMapsBeingCompiled
+[2017.05.29-08.03.48:064][783]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_17, GameThreadShaderMap 0x000000C5BF5AA780
+[2017.05.29-08.03.48:643][803]LogTemp:Display: Finished compile of shader map 0x000000C5BF5AA780
+[2017.05.29-08.03.48:643][803]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_17 complete, GameThreadShaderMap 0x000000C5BF5AA780, marking material FMatExpressionPreview MaterialExpressionVectorParameter_17 as finished
+[2017.05.29-08.03.48:643][803]LogTemp:Display: Marking material as finished 0x000000C5BE20AE00
+[2017.05.29-08.04.03:479][435]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.04.03:479][435]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Planet_Atmosphere for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.29-08.04.03:479][435]LogMaterial:Warning: 	(Node Clamp) Missing Clamp input
+[2017.05.29-08.04.03:479][435]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.04.03:517][435]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_17, compiling. 
+[2017.05.29-08.04.03:517][435]LogTemp:Display: Added material ShaderMap 0x000000C5B6902400 with Material 0x000000C5B847FA00 to ShaderMapsBeingCompiled
+[2017.05.29-08.04.03:519][435]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_17, GameThreadShaderMap 0x000000C5B6902400
+[2017.05.29-08.04.04:090][455]LogTemp:Display: Finished compile of shader map 0x000000C5B6902400
+[2017.05.29-08.04.04:090][455]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_17 complete, GameThreadShaderMap 0x000000C5B6902400, marking material FMatExpressionPreview MaterialExpressionVectorParameter_17 as finished
+[2017.05.29-08.04.04:090][455]LogTemp:Display: Marking material as finished 0x000000C5B847FA00
+[2017.05.29-08.04.13:966][881]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.04.13:967][881]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Planet_Atmosphere for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.29-08.04.13:967][881]LogMaterial:Warning: 	(Node Clamp) Missing Clamp input
+[2017.05.29-08.04.13:967][881]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.04.14:002][881]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_17, compiling. 
+[2017.05.29-08.04.14:003][881]LogTemp:Display: Added material ShaderMap 0x000000C5BF5A8800 with Material 0x000000C5BEFEFA00 to ShaderMapsBeingCompiled
+[2017.05.29-08.04.14:005][881]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_17, GameThreadShaderMap 0x000000C5BF5A8800
+[2017.05.29-08.04.14:584][901]LogTemp:Display: Finished compile of shader map 0x000000C5BF5A8800
+[2017.05.29-08.04.14:584][901]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_17 complete, GameThreadShaderMap 0x000000C5BF5A8800, marking material FMatExpressionPreview MaterialExpressionVectorParameter_17 as finished
+[2017.05.29-08.04.14:584][901]LogTemp:Display: Marking material as finished 0x000000C5BEFEFA00
+[2017.05.29-08.04.16:857][999]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.04.16:857][999]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Planet_Atmosphere for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.29-08.04.16:857][999]LogMaterial:Warning: 	(Node Clamp) Missing Clamp input
+[2017.05.29-08.04.16:857][999]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.04.16:929][999]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_17, compiling. 
+[2017.05.29-08.04.16:930][999]LogTemp:Display: Added material ShaderMap 0x000000C5BF5A9980 with Material 0x000000C5B9FF2200 to ShaderMapsBeingCompiled
+[2017.05.29-08.04.16:932][999]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_17, GameThreadShaderMap 0x000000C5BF5A9980
+[2017.05.29-08.04.17:464][ 18]LogTemp:Display: Finished compile of shader map 0x000000C5BF5A9980
+[2017.05.29-08.04.17:464][ 18]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_17 complete, GameThreadShaderMap 0x000000C5BF5A9980, marking material FMatExpressionPreview MaterialExpressionVectorParameter_17 as finished
+[2017.05.29-08.04.17:464][ 18]LogTemp:Display: Marking material as finished 0x000000C5B9FF2200
+[2017.05.29-08.04.20:865][162]LogMaterialEditor: Saving and Compiling material M_Planet_Atmosphere
+[2017.05.29-08.04.25:593][162]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.04.25:594][162]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Planet_Atmosphere for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.29-08.04.25:594][162]LogMaterial:Warning: 	(Node Clamp) Missing Clamp input
+[2017.05.29-08.04.25:594][162]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.04.25:639][162]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.04.25:640][162]LogMaterial:Warning: Failed to compile Material /Engine/EngineSky/M_Planet_Atmosphere.M_Planet_Atmosphere for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.29-08.04.25:640][162]LogMaterial:Warning: 	(Node Clamp) Missing Clamp input
+[2017.05.29-08.04.25:641][162]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.04.25:642][162]LogMaterial:Warning: Failed to compile Material /Engine/EngineSky/M_Planet_Atmosphere.M_Planet_Atmosphere for platform PCD3D_SM5, Default Material will be used in game.
+[2017.05.29-08.04.25:642][162]LogMaterial:Warning: 	(Node Clamp) Missing Clamp input
+[2017.05.29-08.04.25:643][162]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.04.25:717][162]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.04.25:735][162]TextureStreamingBuild:Display: Compiling optional shaders took 0.075 seconds.
+[2017.05.29-08.04.25:821][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/M_Planet_Atmosphere" FILE="../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset" SILENT=true
+[2017.05.29-08.04.25:905][162]LogSavePackage: Save=24.28ms
+[2017.05.29-08.04.25:905][162]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/M_Planet_Atmosphere90C9391F4B2E8D44A5DDECB3B38F63A2.tmp' to '../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset'
+[2017.05.29-08.04.25:911][162]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset
+[2017.05.29-08.05.05:858][873]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.05.05:859][873]LogTemp:Display: Added material ShaderMap 0x000000C5E8B74F00 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.05.05:865][873]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5E8B74F00
+[2017.05.29-08.05.05:865][873]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.05.06:764][901]LogTemp:Display: Finished compile of shader map 0x000000C5E8B74F00
+[2017.05.29-08.05.06:764][901]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5E8B74F00, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.05.06:765][901]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.05.06:781][902]MaterialEditorStats: Info Base pass shader without light map: 50 instructions
+[2017.05.29-08.05.06:781][902]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2017.05.29-08.05.06:782][902]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.29-08.05.17:413][403]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
+[2017.05.29-08.05.27:802][846]LogMaterialEditor: Saving and Compiling material M_Planet_Atmosphere
+[2017.05.29-08.05.28:421][846]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.05.28:422][846]LogTemp:Display: Added material ShaderMap 0x000000C58E433200 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.05.28:426][846]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C58E433200
+[2017.05.29-08.05.28:426][846]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.05.28:473][846]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.05.28:474][846]LogTemp:Display: Added material ShaderMap 0x000000C582DF4800 with Material 0x000000C5B080CE80 to ShaderMapsBeingCompiled
+[2017.05.29-08.05.28:484][846]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C582DF4800
+[2017.05.29-08.05.28:486][846]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.05.28:487][846]LogTemp:Display: Added material ShaderMap 0x000000C58DDDA780 with Material 0x000000C5B080CE80 to ShaderMapsBeingCompiled
+[2017.05.29-08.05.28:493][846]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C58DDDA780
+[2017.05.29-08.05.28:493][846]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.05.28:533][846]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.05.28:535][846]LogTemp:Display: Added material ShaderMap 0x000000C58DDD8480 with Material 0x000000C5AD3D0A00 to ShaderMapsBeingCompiled
+[2017.05.29-08.05.29:088][846]LogTemp:Display: Finished compile of shader map 0x000000C58DDD8480
+[2017.05.29-08.05.29:088][846]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C58DDD8480, marking material FDebugViewModeMaterialProxy M_Planet_Atmosphere as finished
+[2017.05.29-08.05.29:088][846]LogTemp:Display: Marking material as finished 0x000000C5AD3D0A00
+[2017.05.29-08.05.29:091][846]TextureStreamingBuild:Display: Compiling optional shaders took 0.569 seconds.
+[2017.05.29-08.05.29:742][846]LogTemp:Display: Finished compile of shader map 0x000000C582DF4800
+[2017.05.29-08.05.29:743][846]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C582DF4800, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.05.29:743][846]LogTemp:Display: Marking material as finished 0x000000C5B080CE80
+[2017.05.29-08.05.29:743][846]LogTemp:Display: Finished compile of shader map 0x000000C58DDDA780
+[2017.05.29-08.05.29:743][846]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C58DDDA780, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.05.29:743][846]LogTemp:Display: Marking material as finished 0x000000C5B080CE80
+[2017.05.29-08.05.29:747][846]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.05.29-08.05.29:748][846]LogTemp:Display: Finished compile of shader map 0x000000C58E433200
+[2017.05.29-08.05.29:748][846]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C58E433200, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.05.29:748][846]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.05.29:797][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/M_Planet_Atmosphere" FILE="../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset" SILENT=true
+[2017.05.29-08.05.29:818][846]LogSavePackage: Save=16.36ms
+[2017.05.29-08.05.29:818][846]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/M_Planet_Atmosphere34E9D2A04353614E9A377EA2A7773372.tmp' to '../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset'
+[2017.05.29-08.05.29:821][846]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset
+[2017.05.29-08.05.50:408][637]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.05.50:408][637]LogTemp:Display: Added material ShaderMap 0x000000C5807B8800 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.05.50:411][637]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5807B8800
+[2017.05.29-08.05.50:411][637]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.05.51:310][669]LogTemp:Display: Finished compile of shader map 0x000000C5807B8800
+[2017.05.29-08.05.51:310][669]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5807B8800, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.05.51:310][669]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.05.51:744][691]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2017.05.29-08.05.51:744][691]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.29-08.05.51:744][691]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.05.29-08.06.05:174][318]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.06.05:174][318]LogTemp:Display: Added material ShaderMap 0x000000C58DDD8B80 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.06.05:183][318]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C58DDD8B80
+[2017.05.29-08.06.05:204][318]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.06.05:204][318]LogTemp:Display: Added material ShaderMap 0x000000C5F919EB00 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.06.05:210][318]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5F919EB00
+[2017.05.29-08.06.05:210][318]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.06.07:620][407]LogTemp:Display: Finished compile of shader map 0x000000C5F919EB00
+[2017.05.29-08.06.07:620][407]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5F919EB00, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.06.07:620][407]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.06.07:639][408]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2017.05.29-08.06.07:639][408]MaterialEditorStats: Info Vertex shader: 81 instructions
+[2017.05.29-08.06.07:639][408]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.29-08.06.19:533][926]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.06.19:534][926]LogTemp:Display: Added material ShaderMap 0x000000C588BC0B80 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.06.19:542][926]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C588BC0B80
+[2017.05.29-08.06.19:574][926]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.06.19:575][926]LogTemp:Display: Added material ShaderMap 0x000000C58E5ACF00 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.06.19:581][926]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C58E5ACF00
+[2017.05.29-08.06.19:582][926]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.06.22:987][ 48]LogTemp:Display: Finished compile of shader map 0x000000C58E5ACF00
+[2017.05.29-08.06.22:987][ 48]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C58E5ACF00, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.06.22:987][ 48]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.06.23:004][ 49]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2017.05.29-08.06.23:004][ 49]MaterialEditorStats: Info Vertex shader: 81 instructions
+[2017.05.29-08.06.23:004][ 49]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.29-08.06.33:954][533]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.06.33:955][533]LogTemp:Display: Added material ShaderMap 0x000000C5B4B2A400 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.06.33:966][533]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5B4B2A400
+[2017.05.29-08.06.33:966][533]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.06.33:968][533]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.05.29-08.06.33:969][533]LogTemp:Display: Added material ShaderMap 0x000000C5B0657C80 with Material 0x000000C5B67D4700 to ShaderMapsBeingCompiled
+[2017.05.29-08.06.33:972][533]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant3Vector_0, GameThreadShaderMap 0x000000C5B0657C80
+[2017.05.29-08.06.36:683][630]LogTemp:Display: Finished compile of shader map 0x000000C5B0657C80
+[2017.05.29-08.06.36:683][630]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant3Vector_0 complete, GameThreadShaderMap 0x000000C5B0657C80, marking material FMatExpressionPreview MaterialExpressionConstant3Vector_0 as finished
+[2017.05.29-08.06.36:683][630]LogTemp:Display: Marking material as finished 0x000000C5B67D4700
+[2017.05.29-08.06.37:104][646]LogTemp:Display: Finished compile of shader map 0x000000C5B4B2A400
+[2017.05.29-08.06.37:104][646]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5B4B2A400, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.06.37:104][646]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.06.37:117][647]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2017.05.29-08.06.37:117][647]MaterialEditorStats: Info Vertex shader: 81 instructions
+[2017.05.29-08.06.37:117][647]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.29-08.06.40:930][810]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.06.40:931][810]LogTemp:Display: Added material ShaderMap 0x000000C5BED88F00 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.06.40:938][810]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BED88F00
+[2017.05.29-08.06.40:938][810]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.06.43:337][894]LogTemp:Display: Finished compile of shader map 0x000000C5BED88F00
+[2017.05.29-08.06.43:337][894]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BED88F00, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.06.43:337][894]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.06.46:262][ 27]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.06.46:262][ 27]LogTemp:Display: Added material ShaderMap 0x000000C5BF1BE080 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.06.46:269][ 27]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BF1BE080
+[2017.05.29-08.06.46:269][ 27]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.06.46:283][ 27]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.05.29-08.06.46:284][ 27]LogTemp:Display: Added material ShaderMap 0x000000C5B8496400 with Material 0x000000C58E642500 to ShaderMapsBeingCompiled
+[2017.05.29-08.06.46:288][ 27]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant4Vector_0, GameThreadShaderMap 0x000000C5B8496400
+[2017.05.29-08.06.49:203][130]LogTemp:Display: Finished compile of shader map 0x000000C5B8496400
+[2017.05.29-08.06.49:203][130]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant4Vector_0 complete, GameThreadShaderMap 0x000000C5B8496400, marking material FMatExpressionPreview MaterialExpressionConstant4Vector_0 as finished
+[2017.05.29-08.06.49:203][130]LogTemp:Display: Marking material as finished 0x000000C58E642500
+[2017.05.29-08.06.49:328][135]LogTemp:Display: Finished compile of shader map 0x000000C5BF1BE080
+[2017.05.29-08.06.49:328][135]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BF1BE080, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.06.49:328][135]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.06.49:344][136]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2017.05.29-08.06.49:344][136]MaterialEditorStats: Info Vertex shader: 81 instructions
+[2017.05.29-08.06.49:344][136]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.29-08.06.51:068][210]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.06.51:069][210]LogTemp:Display: Added material ShaderMap 0x000000C5BF1BD600 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.06.51:075][210]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BF1BD600
+[2017.05.29-08.06.51:075][210]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.06.51:103][210]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.05.29-08.06.51:105][210]LogTemp:Display: Added material ShaderMap 0x000000C5AE587200 with Material 0x000000C58256A800 to ShaderMapsBeingCompiled
+[2017.05.29-08.06.51:110][210]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant4Vector_0, GameThreadShaderMap 0x000000C5AE587200
+[2017.05.29-08.06.51:780][235]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.06.51:781][235]LogTemp:Display: Added material ShaderMap 0x000000C5BE285980 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.06.51:799][235]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BE285980
+[2017.05.29-08.06.51:799][235]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.06.51:805][235]LogTemp:Display: Removed shader map 0x000000C5AE587200 from material 0x000000C58256A800
+[2017.05.29-08.06.51:868][235]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.05.29-08.06.51:869][235]LogTemp:Display: Added material ShaderMap 0x000000C5BE00F900 with Material 0x000000C5AE55EE00 to ShaderMapsBeingCompiled
+[2017.05.29-08.06.51:873][235]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant4Vector_0, GameThreadShaderMap 0x000000C5BE00F900
+[2017.05.29-08.06.52:033][241]LogTemp:Display: Finished compile of shader map 0x000000C5BF1BD600
+[2017.05.29-08.06.52:033][241]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BF1BD600, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.06.52:033][241]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.06.52:725][266]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.06.52:728][266]LogTemp:Display: Added material ShaderMap 0x000000C5807B9600 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.06.52:742][266]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5807B9600
+[2017.05.29-08.06.52:742][266]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.06.52:746][266]LogTemp:Display: Removed shader map 0x000000C5BE00F900 from material 0x000000C5AE55EE00
+[2017.05.29-08.06.52:797][266]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.05.29-08.06.52:799][266]LogTemp:Display: Added material ShaderMap 0x000000C5BABF2780 with Material 0x000000C5B9FF3400 to ShaderMapsBeingCompiled
+[2017.05.29-08.06.52:802][266]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant4Vector_0, GameThreadShaderMap 0x000000C5BABF2780
+[2017.05.29-08.06.52:992][273]LogTemp:Display: Finished compile of shader map 0x000000C5BE285980
+[2017.05.29-08.06.52:992][273]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BE285980, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.06.52:992][273]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.06.54:426][324]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.06.54:428][324]LogTemp:Display: Added material ShaderMap 0x000000C5BAAD5280 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.06.54:440][324]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BAAD5280
+[2017.05.29-08.06.54:440][324]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.06.54:443][324]LogTemp:Display: Removed shader map 0x000000C5BABF2780 from material 0x000000C5B9FF3400
+[2017.05.29-08.06.54:466][324]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.05.29-08.06.54:468][324]LogTemp:Display: Added material ShaderMap 0x000000C5BE284100 with Material 0x000000C5B0628A00 to ShaderMapsBeingCompiled
+[2017.05.29-08.06.54:472][324]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant4Vector_0, GameThreadShaderMap 0x000000C5BE284100
+[2017.05.29-08.06.55:363][357]LogTemp:Display: Finished compile of shader map 0x000000C5BABF2780
+[2017.05.29-08.06.56:297][391]LogTemp:Display: Finished compile of shader map 0x000000C5807B9600
+[2017.05.29-08.06.56:297][391]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5807B9600, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.06.56:297][391]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.06.58:315][465]LogTemp:Display: Finished compile of shader map 0x000000C5BE284100
+[2017.05.29-08.06.58:315][465]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant4Vector_0 complete, GameThreadShaderMap 0x000000C5BE284100, marking material FMatExpressionPreview MaterialExpressionConstant4Vector_0 as finished
+[2017.05.29-08.06.58:315][465]LogTemp:Display: Marking material as finished 0x000000C5B0628A00
+[2017.05.29-08.06.58:420][469]LogTemp:Display: Finished compile of shader map 0x000000C5BAAD5280
+[2017.05.29-08.06.58:420][469]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BAAD5280, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.06.58:420][469]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.07.01:205][611]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.07.01:205][611]LogTemp:Display: Added material ShaderMap 0x000000C5B6736E80 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.07.01:212][611]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5B6736E80
+[2017.05.29-08.07.01:212][611]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.07.01:244][611]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.05.29-08.07.01:245][611]LogTemp:Display: Added material ShaderMap 0x000000C5BAAD5280 with Material 0x000000C5B0628A00 to ShaderMapsBeingCompiled
+[2017.05.29-08.07.01:249][611]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant4Vector_0, GameThreadShaderMap 0x000000C5BAAD5280
+[2017.05.29-08.07.03:793][699]LogTemp:Display: Finished compile of shader map 0x000000C5BAAD5280
+[2017.05.29-08.07.03:793][699]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant4Vector_0 complete, GameThreadShaderMap 0x000000C5BAAD5280, marking material FMatExpressionPreview MaterialExpressionConstant4Vector_0 as finished
+[2017.05.29-08.07.03:793][699]LogTemp:Display: Marking material as finished 0x000000C5B0628A00
+[2017.05.29-08.07.04:006][707]LogTemp:Display: Finished compile of shader map 0x000000C5B6736E80
+[2017.05.29-08.07.04:006][707]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5B6736E80, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.07.04:006][707]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.07.07:600][868]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.07.07:601][868]LogTemp:Display: Added material ShaderMap 0x000000C58DDD8F00 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.07.07:613][868]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C58DDD8F00
+[2017.05.29-08.07.07:613][868]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.07.09:639][941]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.07.09:640][941]LogTemp:Display: Added material ShaderMap 0x000000C58E5AC100 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.07.09:655][941]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C58E5AC100
+[2017.05.29-08.07.09:655][941]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.07.11:317][  3]LogTemp:Display: Finished compile of shader map 0x000000C58DDD8F00
+[2017.05.29-08.07.11:317][  3]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C58DDD8F00, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.07.11:317][  3]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.07.14:234][112]LogTemp:Display: Finished compile of shader map 0x000000C58E5AC100
+[2017.05.29-08.07.14:234][112]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C58E5AC100, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.07.14:234][112]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.07.14:253][113]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2017.05.29-08.07.14:254][113]MaterialEditorStats: Info Vertex shader: 81 instructions
+[2017.05.29-08.07.14:254][113]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.29-08.07.22:364][461]LogMaterialEditor: Saving and Compiling material M_Planet_Atmosphere
+[2017.05.29-08.07.22:957][461]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.07.22:957][461]LogTemp:Display: Added material ShaderMap 0x000000C58E433C80 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.07.22:971][461]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C58E433C80
+[2017.05.29-08.07.22:971][461]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.07.23:024][461]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.07.23:025][461]LogTemp:Display: Added material ShaderMap 0x000000C5807B9280 with Material 0x000000C5B080FD00 to ShaderMapsBeingCompiled
+[2017.05.29-08.07.23:041][461]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5807B9280
+[2017.05.29-08.07.23:053][461]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.07.23:054][461]LogTemp:Display: Added material ShaderMap 0x000000C5BABF2B00 with Material 0x000000C5B080FD00 to ShaderMapsBeingCompiled
+[2017.05.29-08.07.23:068][461]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BABF2B00
+[2017.05.29-08.07.23:069][461]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.07.23:107][461]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.07.23:108][461]LogTemp:Display: Added material ShaderMap 0x000000C58261EE80 with Material 0x000000C5B67D6800 to ShaderMapsBeingCompiled
+[2017.05.29-08.07.23:783][461]LogTemp:Display: Finished compile of shader map 0x000000C58261EE80
+[2017.05.29-08.07.23:783][461]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C58261EE80, marking material FDebugViewModeMaterialProxy M_Planet_Atmosphere as finished
+[2017.05.29-08.07.23:783][461]LogTemp:Display: Marking material as finished 0x000000C5B67D6800
+[2017.05.29-08.07.23:788][461]TextureStreamingBuild:Display: Compiling optional shaders took 0.687 seconds.
+[2017.05.29-08.07.25:134][461]LogTemp:Display: Finished compile of shader map 0x000000C5BABF2B00
+[2017.05.29-08.07.25:134][461]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BABF2B00, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.07.25:134][461]LogTemp:Display: Marking material as finished 0x000000C5B080FD00
+[2017.05.29-08.07.25:139][461]LogTemp:Display: Finished compile of shader map 0x000000C58E433C80
+[2017.05.29-08.07.25:139][461]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C58E433C80, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.07.25:139][461]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.07.25:194][461]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/M_Planet_Atmosphere" FILE="../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset" SILENT=true
+[2017.05.29-08.07.25:216][461]LogSavePackage: Save=17.06ms
+[2017.05.29-08.07.25:216][461]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/M_Planet_Atmosphere08CDCE0F4BA43EC743A7428EC03AE9EF.tmp' to '../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset'
+[2017.05.29-08.07.25:219][461]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset
+[2017.05.29-08.07.29:288][650]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
+[2017.05.29-08.07.47:044][392]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.07.47:045][392]LogTemp:Display: Added material ShaderMap 0x000000C5BDFECB80 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.07.47:051][392]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BDFECB80
+[2017.05.29-08.07.47:051][392]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.07.47:079][392]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.05.29-08.07.47:080][392]LogTemp:Display: Added material ShaderMap 0x000000C5AB581280 with Material 0x000000C5B67D6B00 to ShaderMapsBeingCompiled
+[2017.05.29-08.07.47:084][392]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant4Vector_0, GameThreadShaderMap 0x000000C5AB581280
+[2017.05.29-08.07.49:853][493]LogMaterialEditor: Saving and Compiling material M_Planet_Atmosphere
+[2017.05.29-08.07.50:605][493]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.07.50:605][493]LogTemp:Display: Added material ShaderMap 0x000000C5F9110B80 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.07.50:620][493]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5F9110B80
+[2017.05.29-08.07.50:620][493]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.07.50:651][493]LogTemp:Display: Removed shader map 0x000000C5807B9280 from material 0x000000C5B080FD00
+[2017.05.29-08.07.50:672][493]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.07.50:673][493]LogTemp:Display: Added material ShaderMap 0x000000C5B49DF900 with Material 0x000000C5BF0E4580 to ShaderMapsBeingCompiled
+[2017.05.29-08.07.50:690][493]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5B49DF900
+[2017.05.29-08.07.50:703][493]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.07.50:704][493]LogTemp:Display: Added material ShaderMap 0x000000C5B4BF7C80 with Material 0x000000C5BF0E4580 to ShaderMapsBeingCompiled
+[2017.05.29-08.07.50:717][493]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5B4BF7C80
+[2017.05.29-08.07.50:718][493]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.07.50:780][493]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.07.50:781][493]LogTemp:Display: Added material ShaderMap 0x000000C5BE961600 with Material 0x000000C5C1877700 to ShaderMapsBeingCompiled
+[2017.05.29-08.07.51:413][493]LogTemp:Display: Finished compile of shader map 0x000000C5BE961600
+[2017.05.29-08.07.51:413][493]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BE961600, marking material FDebugViewModeMaterialProxy M_Planet_Atmosphere as finished
+[2017.05.29-08.07.51:413][493]LogTemp:Display: Marking material as finished 0x000000C5C1877700
+[2017.05.29-08.07.51:418][493]TextureStreamingBuild:Display: Compiling optional shaders took 0.669 seconds.
+[2017.05.29-08.07.52:777][493]LogTemp:Display: Finished compile of shader map 0x000000C5B4BF7C80
+[2017.05.29-08.07.52:777][493]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5B4BF7C80, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.07.52:777][493]LogTemp:Display: Marking material as finished 0x000000C5BF0E4580
+[2017.05.29-08.07.52:782][493]LogTemp:Display: Finished compile of shader map 0x000000C5BDFECB80
+[2017.05.29-08.07.52:782][493]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BDFECB80, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.07.52:782][493]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.07.52:783][493]LogTemp:Display: Finished compile of shader map 0x000000C5AB581280
+[2017.05.29-08.07.52:783][493]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant4Vector_0 complete, GameThreadShaderMap 0x000000C5AB581280, marking material FMatExpressionPreview MaterialExpressionConstant4Vector_0 as finished
+[2017.05.29-08.07.52:783][493]LogTemp:Display: Marking material as finished 0x000000C5B67D6B00
+[2017.05.29-08.07.52:785][493]LogTemp:Display: Finished compile of shader map 0x000000C5F9110B80
+[2017.05.29-08.07.52:785][493]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5F9110B80, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.07.52:785][493]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.07.52:836][493]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/M_Planet_Atmosphere" FILE="../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset" SILENT=true
+[2017.05.29-08.07.52:854][493]LogSavePackage: Save=13.81ms
+[2017.05.29-08.07.52:854][493]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/M_Planet_Atmosphere1240EFCF4709B222420FD3B177CEBD78.tmp' to '../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset'
+[2017.05.29-08.07.52:857][493]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset
+[2017.05.29-08.07.52:869][493]MaterialEditorStats: Info Base pass shader without light map: 29 instructions
+[2017.05.29-08.07.52:869][493]MaterialEditorStats: Info Vertex shader: 81 instructions
+[2017.05.29-08.07.52:869][493]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.29-08.08.04:660][927]LogMaterialEditor: Saving and Compiling material M_Planet_Atmosphere
+[2017.05.29-08.08.05:288][927]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.08.05:289][927]LogTemp:Display: Added material ShaderMap 0x000000C5BE960800 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.08.05:302][927]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BE960800
+[2017.05.29-08.08.05:302][927]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.08.05:345][927]LogTemp:Display: Removed shader map 0x000000C5B49DF900 from material 0x000000C5BF0E4580
+[2017.05.29-08.08.05:368][927]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.08.05:369][927]LogTemp:Display: Added material ShaderMap 0x000000C5BE080480 with Material 0x000000C5BF0E7280 to ShaderMapsBeingCompiled
+[2017.05.29-08.08.05:386][927]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BE080480
+[2017.05.29-08.08.05:388][927]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.08.05:389][927]LogTemp:Display: Added material ShaderMap 0x000000C5BE0E2780 with Material 0x000000C5BF0E7280 to ShaderMapsBeingCompiled
+[2017.05.29-08.08.05:402][927]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BE0E2780
+[2017.05.29-08.08.05:403][927]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.08.05:442][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.08.05:443][927]LogTemp:Display: Added material ShaderMap 0x000000C5FC9E0F00 with Material 0x000000C5BA815C00 to ShaderMapsBeingCompiled
+[2017.05.29-08.08.06:066][927]LogTemp:Display: Finished compile of shader map 0x000000C5FC9E0F00
+[2017.05.29-08.08.06:066][927]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5FC9E0F00, marking material FDebugViewModeMaterialProxy M_Planet_Atmosphere as finished
+[2017.05.29-08.08.06:066][927]LogTemp:Display: Marking material as finished 0x000000C5BA815C00
+[2017.05.29-08.08.06:069][927]TextureStreamingBuild:Display: Compiling optional shaders took 0.634 seconds.
+[2017.05.29-08.08.07:434][927]LogTemp:Display: Finished compile of shader map 0x000000C5BE0E2780
+[2017.05.29-08.08.07:434][927]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BE0E2780, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.08.07:434][927]LogTemp:Display: Marking material as finished 0x000000C5BF0E7280
+[2017.05.29-08.08.07:439][927]LogTemp:Display: Finished compile of shader map 0x000000C5BE960800
+[2017.05.29-08.08.07:439][927]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BE960800, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.08.07:439][927]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.08.07:482][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/M_Planet_Atmosphere" FILE="../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset" SILENT=true
+[2017.05.29-08.08.07:500][927]LogSavePackage: Save=13.59ms
+[2017.05.29-08.08.07:500][927]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/M_Planet_Atmosphere1AF122CB4AAB851012BA1880C69E9C8A.tmp' to '../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset'
+[2017.05.29-08.08.07:539][927]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset
+[2017.05.29-08.08.30:283][886]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.08.30:283][886]LogTemp:Display: Added material ShaderMap 0x000000C5BE845600 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.08.30:290][886]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BE845600
+[2017.05.29-08.08.30:290][886]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.08.33:711][ 11]LogTemp:Display: Finished compile of shader map 0x000000C5BE845600
+[2017.05.29-08.08.33:711][ 11]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BE845600, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.08.33:711][ 11]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.08.33:726][ 12]MaterialEditorStats: Info Base pass shader without light map: 25 instructions
+[2017.05.29-08.08.33:726][ 12]MaterialEditorStats: Info Vertex shader: 81 instructions
+[2017.05.29-08.08.33:726][ 12]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.29-08.08.34:464][ 45]LogMaterialEditor: Saving and Compiling material M_Planet_Atmosphere
+[2017.05.29-08.08.35:099][ 45]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.08.35:100][ 45]LogTemp:Display: Added material ShaderMap 0x000000C5B9E62400 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.08.35:115][ 45]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5B9E62400
+[2017.05.29-08.08.35:115][ 45]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.08.35:156][ 45]LogTemp:Display: Removed shader map 0x000000C5BE080480 from material 0x000000C5BF0E7280
+[2017.05.29-08.08.35:183][ 45]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.08.35:184][ 45]LogTemp:Display: Added material ShaderMap 0x000000C5E8B76B00 with Material 0x000000C5BF0E5180 to ShaderMapsBeingCompiled
+[2017.05.29-08.08.35:201][ 45]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5E8B76B00
+[2017.05.29-08.08.35:211][ 45]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.08.35:212][ 45]LogTemp:Display: Added material ShaderMap 0x000000C5BE2B7200 with Material 0x000000C5BF0E5180 to ShaderMapsBeingCompiled
+[2017.05.29-08.08.35:225][ 45]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BE2B7200
+[2017.05.29-08.08.35:226][ 45]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.08.35:285][ 45]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.08.35:286][ 45]LogTemp:Display: Added material ShaderMap 0x000000C5BE9C4F00 with Material 0x000000C5B67D7400 to ShaderMapsBeingCompiled
+[2017.05.29-08.08.35:918][ 45]LogTemp:Display: Finished compile of shader map 0x000000C5BE9C4F00
+[2017.05.29-08.08.35:918][ 45]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BE9C4F00, marking material FDebugViewModeMaterialProxy M_Planet_Atmosphere as finished
+[2017.05.29-08.08.35:918][ 45]LogTemp:Display: Marking material as finished 0x000000C5B67D7400
+[2017.05.29-08.08.35:922][ 45]TextureStreamingBuild:Display: Compiling optional shaders took 0.663 seconds.
+[2017.05.29-08.08.37:278][ 45]LogTemp:Display: Finished compile of shader map 0x000000C5BE2B7200
+[2017.05.29-08.08.37:278][ 45]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BE2B7200, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.08.37:278][ 45]LogTemp:Display: Marking material as finished 0x000000C5BF0E5180
+[2017.05.29-08.08.37:283][ 45]LogTemp:Display: Finished compile of shader map 0x000000C5B9E62400
+[2017.05.29-08.08.37:283][ 45]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5B9E62400, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.08.37:283][ 45]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.08.37:344][ 45]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/M_Planet_Atmosphere" FILE="../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset" SILENT=true
+[2017.05.29-08.08.37:363][ 45]LogSavePackage: Save=14.14ms
+[2017.05.29-08.08.37:363][ 45]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/M_Planet_Atmosphere6ED321B54BA3710A1B3BDF848A71E287.tmp' to '../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset'
+[2017.05.29-08.08.37:366][ 45]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset
+[2017.05.29-08.08.55:403][591]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.08.55:404][591]LogTemp:Display: Added material ShaderMap 0x000000C5BE372080 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.08.55:415][591]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BE372080
+[2017.05.29-08.08.55:418][591]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.08.55:419][591]LogTemp:Display: Added material ShaderMap 0x000000C5FC9E2780 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.08.55:425][591]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5FC9E2780
+[2017.05.29-08.08.55:425][591]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.08.55:993][608]LogTemp:Display: Finished compile of shader map 0x000000C5BE372080
+[2017.05.29-08.08.55:993][608]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BE372080, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.08.55:993][608]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.08.57:114][647]LogMaterialEditor: Saving and Compiling material M_Planet_Atmosphere
+[2017.05.29-08.08.57:936][647]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.08.57:937][647]LogTemp:Display: Added material ShaderMap 0x000000C5BE370800 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.08.57:947][647]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BE370800
+[2017.05.29-08.08.57:948][647]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.08.57:980][647]LogTemp:Display: Removed shader map 0x000000C5E8B76B00 from material 0x000000C5BF0E5180
+[2017.05.29-08.08.57:999][647]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.08.58:000][647]LogTemp:Display: Added material ShaderMap 0x000000C5BE846400 with Material 0x000000C5ACFD0700 to ShaderMapsBeingCompiled
+[2017.05.29-08.08.58:015][647]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BE846400
+[2017.05.29-08.08.58:045][647]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.08.58:046][647]LogTemp:Display: Added material ShaderMap 0x000000C5BE022B00 with Material 0x000000C5ACFD0700 to ShaderMapsBeingCompiled
+[2017.05.29-08.08.58:057][647]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BE022B00
+[2017.05.29-08.08.58:059][647]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.08.58:101][647]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.08.58:102][647]LogTemp:Display: Added material ShaderMap 0x000000C5BA1A2400 with Material 0x000000C5B9E9F400 to ShaderMapsBeingCompiled
+[2017.05.29-08.08.58:547][647]LogTemp:Display: Finished compile of shader map 0x000000C5BA1A2400
+[2017.05.29-08.08.58:547][647]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BA1A2400, marking material FDebugViewModeMaterialProxy M_Planet_Atmosphere as finished
+[2017.05.29-08.08.58:547][647]LogTemp:Display: Marking material as finished 0x000000C5B9E9F400
+[2017.05.29-08.08.58:550][647]TextureStreamingBuild:Display: Compiling optional shaders took 0.456 seconds.
+[2017.05.29-08.08.59:938][647]LogTemp:Display: Finished compile of shader map 0x000000C5BE022B00
+[2017.05.29-08.08.59:938][647]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BE022B00, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.08.59:938][647]LogTemp:Display: Marking material as finished 0x000000C5ACFD0700
+[2017.05.29-08.08.59:944][647]LogTemp:Display: Finished compile of shader map 0x000000C5FC9E2780
+[2017.05.29-08.08.59:944][647]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5FC9E2780, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.08.59:944][647]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.08.59:944][647]LogTemp:Display: Finished compile of shader map 0x000000C5BE370800
+[2017.05.29-08.08.59:944][647]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BE370800, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.08.59:944][647]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.09.00:000][647]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/M_Planet_Atmosphere" FILE="../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset" SILENT=true
+[2017.05.29-08.09.00:032][647]LogSavePackage: Save=27.81ms
+[2017.05.29-08.09.00:032][647]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/M_Planet_Atmosphere41B880A34B046BDA4D67A1B8BE9FC8C2.tmp' to '../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset'
+[2017.05.29-08.09.00:036][647]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset
+[2017.05.29-08.09.00:048][647]MaterialEditorStats: Info Base pass shader without light map: 25 instructions
+[2017.05.29-08.09.00:048][647]MaterialEditorStats: Info Vertex shader: 81 instructions
+[2017.05.29-08.09.00:048][647]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.29-08.09.02:178][753]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
+[2017.05.29-08.09.02:797][781]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
+[2017.05.29-08.09.23:304][620]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.09.23:305][620]LogTemp:Display: Added material ShaderMap 0x000000C58026F580 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.09.23:316][620]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C58026F580
+[2017.05.29-08.09.23:316][620]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.09.23:318][620]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.09.23:319][620]LogTemp:Display: Added material ShaderMap 0x000000C58E626B00 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.09.23:326][620]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C58E626B00
+[2017.05.29-08.09.23:326][620]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.09.23:352][620]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant4Vector_0, compiling. 
+[2017.05.29-08.09.23:353][620]LogTemp:Display: Added material ShaderMap 0x000000C58DE80B80 with Material 0x000000C5BEF2FA00 to ShaderMapsBeingCompiled
+[2017.05.29-08.09.23:356][620]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionConstant4Vector_0, GameThreadShaderMap 0x000000C58DE80B80
+[2017.05.29-08.09.26:563][734]LogTemp:Display: Finished compile of shader map 0x000000C58DE80B80
+[2017.05.29-08.09.26:563][734]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionConstant4Vector_0 complete, GameThreadShaderMap 0x000000C58DE80B80, marking material FMatExpressionPreview MaterialExpressionConstant4Vector_0 as finished
+[2017.05.29-08.09.26:563][734]LogTemp:Display: Marking material as finished 0x000000C5BEF2FA00
+[2017.05.29-08.09.26:688][738]LogTemp:Display: Finished compile of shader map 0x000000C58E626B00
+[2017.05.29-08.09.26:688][738]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C58E626B00, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.09.26:688][738]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.09.26:702][739]MaterialEditorStats: Info Base pass shader without light map: 25 instructions
+[2017.05.29-08.09.26:702][739]MaterialEditorStats: Info Vertex shader: 81 instructions
+[2017.05.29-08.09.26:702][739]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.29-08.09.28:600][824]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.09.28:602][824]LogTemp:Display: Added material ShaderMap 0x000000C58E625280 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.09.28:608][824]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C58E625280
+[2017.05.29-08.09.28:608][824]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.09.30:798][902]LogTemp:Display: Finished compile of shader map 0x000000C58E625280
+[2017.05.29-08.09.30:798][902]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C58E625280, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.09.30:798][902]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.09.34:328][ 61]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.09.34:328][ 61]LogTemp:Display: Added material ShaderMap 0x000000C58DDD8480 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.09.34:334][ 61]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C58DDD8480
+[2017.05.29-08.09.34:334][ 61]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.09.36:503][137]LogTemp:Display: Finished compile of shader map 0x000000C58DDD8480
+[2017.05.29-08.09.36:503][137]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C58DDD8480, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.09.36:503][137]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.09.36:872][153]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.09.36:872][153]LogTemp:Display: Added material ShaderMap 0x000000C5BDFEE080 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.09.36:878][153]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BDFEE080
+[2017.05.29-08.09.36:878][153]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.09.39:323][243]LogTemp:Display: Finished compile of shader map 0x000000C5BDFEE080
+[2017.05.29-08.09.39:323][243]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BDFEE080, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.09.39:323][243]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.09.39:397][246]MaterialEditorStats: Info Base pass shader without light map: 24 instructions
+[2017.05.29-08.09.39:397][246]MaterialEditorStats: Info Vertex shader: 81 instructions
+[2017.05.29-08.09.39:397][246]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.29-08.09.41:058][317]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.09.41:059][317]LogTemp:Display: Added material ShaderMap 0x000000C5BDFEE780 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.09.41:069][317]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BDFEE780
+[2017.05.29-08.09.41:070][317]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.09.42:834][379]LogMaterialEditor: Saving and Compiling material M_Planet_Atmosphere
+[2017.05.29-08.09.43:499][379]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.09.43:499][379]LogTemp:Display: Added material ShaderMap 0x000000C5BAAD5600 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.09.43:510][379]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BAAD5600
+[2017.05.29-08.09.43:511][379]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.09.43:552][379]LogTemp:Display: Removed shader map 0x000000C5BE846400 from material 0x000000C5ACFD0700
+[2017.05.29-08.09.43:560][379]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.09.43:561][379]LogTemp:Display: Added material ShaderMap 0x000000C58261C800 with Material 0x000000C5ACFD0400 to ShaderMapsBeingCompiled
+[2017.05.29-08.09.43:576][379]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C58261C800
+[2017.05.29-08.09.43:591][379]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.09.43:592][379]LogTemp:Display: Added material ShaderMap 0x000000C5BE287900 with Material 0x000000C5ACFD0400 to ShaderMapsBeingCompiled
+[2017.05.29-08.09.43:604][379]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BE287900
+[2017.05.29-08.09.43:605][379]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.09.43:665][379]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.09.43:666][379]LogTemp:Display: Added material ShaderMap 0x000000C5B6902B00 with Material 0x000000C5F00A2B00 to ShaderMapsBeingCompiled
+[2017.05.29-08.09.44:144][379]LogTemp:Display: Finished compile of shader map 0x000000C5B6902B00
+[2017.05.29-08.09.44:144][379]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5B6902B00, marking material FDebugViewModeMaterialProxy M_Planet_Atmosphere as finished
+[2017.05.29-08.09.44:144][379]LogTemp:Display: Marking material as finished 0x000000C5F00A2B00
+[2017.05.29-08.09.44:147][379]TextureStreamingBuild:Display: Compiling optional shaders took 0.509 seconds.
+[2017.05.29-08.09.45:492][379]LogTemp:Display: Finished compile of shader map 0x000000C5BE287900
+[2017.05.29-08.09.45:492][379]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BE287900, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.09.45:492][379]LogTemp:Display: Marking material as finished 0x000000C5ACFD0400
+[2017.05.29-08.09.45:497][379]LogTemp:Display: Finished compile of shader map 0x000000C5BAAD5600
+[2017.05.29-08.09.45:497][379]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BAAD5600, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.09.45:497][379]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.09.45:498][379]LogTemp:Display: Finished compile of shader map 0x000000C5BDFEE780
+[2017.05.29-08.09.45:498][379]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BDFEE780, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.09.45:498][379]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.09.45:558][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/M_Planet_Atmosphere" FILE="../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset" SILENT=true
+[2017.05.29-08.09.45:582][379]LogSavePackage: Save=13.62ms
+[2017.05.29-08.09.45:582][379]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/M_Planet_AtmosphereB3D4AB624956325C12428DAB1D820E20.tmp' to '../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset'
+[2017.05.29-08.09.45:585][379]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset
+[2017.05.29-08.09.45:596][379]MaterialEditorStats: Info Base pass shader without light map: 25 instructions
+[2017.05.29-08.09.45:596][379]MaterialEditorStats: Info Vertex shader: 81 instructions
+[2017.05.29-08.09.45:596][379]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.05.29-08.09.48:558][520]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
+[2017.05.29-08.10.26:443][380]LogSavePackage: Save=80.87ms
+[2017.05.29-08.10.26:443][380]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/Minimal_Default_Auto2F9AB8E434F75BF83DF466498C8DDE3B8.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2017.05.29-08.10.26:445][380]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap
+[2017.05.29-08.10.26:449][380]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.132
+[2017.05.29-08.10.26:449][380]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.132
+[2017.05.29-08.10.49:661][881]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.10.49:662][881]LogTemp:Display: Added material ShaderMap 0x000000C5BE083900 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.10.49:664][881]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BE083900
+[2017.05.29-08.10.49:669][881]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.10.49:671][881]LogTemp:Display: Added material ShaderMap 0x000000C58DDDAE80 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.10.49:677][881]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C58DDDAE80
+[2017.05.29-08.10.49:678][881]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.10.51:135][930]LogTemp:Display: Finished compile of shader map 0x000000C5BE083900
+[2017.05.29-08.10.51:135][930]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BE083900, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.10.51:135][930]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.10.51:424][940]LogTemp:Display: Finished compile of shader map 0x000000C58DDDAE80
+[2017.05.29-08.10.51:424][940]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C58DDDAE80, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.10.51:424][940]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.10.51:451][941]MaterialEditorStats: Info Base pass shader without light map: 30 instructions
+[2017.05.29-08.10.51:451][941]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.29-08.10.51:451][941]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.05.29-08.10.54:610][ 77]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.10.54:611][ 77]LogTemp:Display: Added material ShaderMap 0x000000C5BDFEFC80 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.10.54:616][ 77]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BDFEFC80
+[2017.05.29-08.10.54:644][ 77]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.10.54:644][ 77]LogTemp:Display: Added material ShaderMap 0x000000C5BF5AA400 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.10.54:648][ 77]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BF5AA400
+[2017.05.29-08.10.54:648][ 77]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.10.55:519][106]LogTemp:Display: Finished compile of shader map 0x000000C5BF5AA400
+[2017.05.29-08.10.55:520][106]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BF5AA400, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.10.55:520][106]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.10.55:546][107]MaterialEditorStats: Info Base pass shader without light map: 30 instructions
+[2017.05.29-08.10.55:546][107]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.29-08.10.55:546][107]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.05.29-08.11.02:663][407]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.11.02:664][407]LogTemp:Display: Added material ShaderMap 0x000000C5B6737200 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.11.02:668][407]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5B6737200
+[2017.05.29-08.11.02:668][407]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.11.03:515][438]LogTemp:Display: Finished compile of shader map 0x000000C5B6737200
+[2017.05.29-08.11.03:515][438]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5B6737200, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.11.03:515][438]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.11.03:545][439]MaterialEditorStats: Info Base pass shader without light map: 30 instructions
+[2017.05.29-08.11.03:545][439]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.05.29-08.11.03:545][439]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.05.29-08.11.04:857][495]LogMaterialEditor: Saving and Compiling material M_Planet_Atmosphere
+[2017.05.29-08.11.05:470][495]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.11.05:471][495]LogTemp:Display: Added material ShaderMap 0x000000C58DDD8480 with Material 0x000000C582B55300 to ShaderMapsBeingCompiled
+[2017.05.29-08.11.05:478][495]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C58DDD8480
+[2017.05.29-08.11.05:478][495]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.11.05:511][495]LogTemp:Display: Removed shader map 0x000000C58261C800 from material 0x000000C5ACFD0400
+[2017.05.29-08.11.05:531][495]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.11.05:532][495]LogTemp:Display: Added material ShaderMap 0x000000C5B4C0CF00 with Material 0x000000C580153280 to ShaderMapsBeingCompiled
+[2017.05.29-08.11.05:551][495]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5B4C0CF00
+[2017.05.29-08.11.05:569][495]LogMaterial: Missing cached shader map for material M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.11.05:570][495]LogTemp:Display: Added material ShaderMap 0x000000C5BE846E80 with Material 0x000000C580153280 to ShaderMapsBeingCompiled
+[2017.05.29-08.11.05:582][495]LogTemp:Display: Kicking off shader compilation for M_Planet_Atmosphere, GameThreadShaderMap 0x000000C5BE846E80
+[2017.05.29-08.11.05:583][495]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.11.05:624][495]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Planet_Atmosphere, compiling. 
+[2017.05.29-08.11.05:625][495]LogTemp:Display: Added material ShaderMap 0x000000C5BE91A780 with Material 0x000000C5BA864D00 to ShaderMapsBeingCompiled
+[2017.05.29-08.11.05:893][495]LogTemp:Display: Finished compile of shader map 0x000000C5BE91A780
+[2017.05.29-08.11.05:893][495]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BE91A780, marking material FDebugViewModeMaterialProxy M_Planet_Atmosphere as finished
+[2017.05.29-08.11.05:893][495]LogTemp:Display: Marking material as finished 0x000000C5BA864D00
+[2017.05.29-08.11.05:896][495]TextureStreamingBuild:Display: Compiling optional shaders took 0.279 seconds.
+[2017.05.29-08.11.07:057][495]LogTemp:Display: Finished compile of shader map 0x000000C5BE846E80
+[2017.05.29-08.11.07:057][495]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C5BE846E80, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.11.07:057][495]LogTemp:Display: Marking material as finished 0x000000C580153280
+[2017.05.29-08.11.07:062][495]LogTemp:Display: Finished compile of shader map 0x000000C58DDD8480
+[2017.05.29-08.11.07:062][495]LogTemp:Display: Shader map M_Planet_Atmosphere complete, GameThreadShaderMap 0x000000C58DDD8480, marking material M_Planet_Atmosphere as finished
+[2017.05.29-08.11.07:062][495]LogTemp:Display: Marking material as finished 0x000000C582B55300
+[2017.05.29-08.11.07:116][495]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/M_Planet_Atmosphere" FILE="../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset" SILENT=true
+[2017.05.29-08.11.07:131][495]LogSavePackage: Save=11.10ms
+[2017.05.29-08.11.07:131][495]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/M_Planet_AtmosphereB66685034F44AD6064DD0EA3EEAEDCED.tmp' to '../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset'
+[2017.05.29-08.11.07:151][495]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/EngineSky/M_Planet_Atmosphere.uasset
+[2017.05.29-08.11.07:163][495]MaterialEditorStats: Info Base pass shader without light map: 30 instructions
+[2017.05.29-08.11.07:163][495]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.05.29-08.11.07:163][495]MaterialEditorStats: Info Texture samplers: 0/16
+[2017.05.29-08.11.09:296][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
+[2017.05.29-08.11.10:544][668]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_PlanetSphere)
+[2017.05.29-08.11.29:138][202]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
+[2017.05.29-08.11.30:439][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Planet1)
+[2017.05.29-08.12.08:024][743]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
+[2017.05.29-08.12.57:760][258]LogTemp:Display: Removed shader map 0x000000C5B4C0CF00 from material 0x000000C580153280
+[2017.05.29-08.12.57:761][258]LogTemp:Display: Removed shader map 0x000000C582B68100 from material 0x000000C582B55300
+[2017.05.29-08.12.57:761][258]LogTemp:Display: Removed shader map 0x000000C5BDFEFC80 from material 0x000000C582B55300
+[2017.05.29-08.12.57:761][258]LogTemp:Display: Removed shader map 0x000000C58026F580 from material 0x000000C582B55300
+[2017.05.29-08.12.57:761][258]LogTemp:Display: Removed shader map 0x000000C588BC0B80 from material 0x000000C582B55300
+[2017.05.29-08.12.57:761][258]LogTemp:Display: Removed shader map 0x000000C58DDD8B80 from material 0x000000C582B55300
+[2017.05.29-08.13.00:803][380]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.05.29-08.13.00:829][380]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2017.05.29-08.13.03:140][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
+[2017.05.29-08.13.04:458][571]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_SkySphere)
+[2017.05.29-08.13.48:248][796]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.29-08.13.48:274][796]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.13.48:274][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.29-08.13.48:320][796]PIE: New page: PIE session: Minimal_Default (May 29, 2017, 12:13:48 PM)
+[2017.05.29-08.13.48:320][796]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.29-08.13.48:323][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002892s)
+[2017.05.29-08.13.48:323][796]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.29-08.13.48:324][796]LogPlayLevel: PIE: World Init took: (0.000893s)
+[2017.05.29-08.13.48:324][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004009s)
+[2017.05.29-08.13.48:343][796]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.29-08.13.48:352][796]LogInit: FAudioDevice initialized.
+[2017.05.29-08.13.48:767][796]LogLoad: Game class is 'MainMenuMode_C'
+[2017.05.29-08.13.48:768][796]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2017.05.29-10.13.48
+[2017.05.29-08.13.48:769][796]LogWorld: Bringing up level for play took: 0.001217
+[2017.05.29-08.13.48:813][796]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.05.29-08.13.48:820][796]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.388
+[2017.05.29-08.13.48:820][796]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.13.48:868][796]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:45379).
+[2017.05.29-08.14.14:512][966]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.14.14:576][966]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.14.19:490][180]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.05.29-08.14.52:191][564]BlueprintLog: New page: Compile Minimal_Default
+[2017.05.29-08.14.56:927][776]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.29-08.14.56:964][776]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.14.56:964][776]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.29-08.14.56:964][776]PIE: New page: PIE session: Minimal_Default (May 29, 2017, 12:14:56 PM)
+[2017.05.29-08.14.56:964][776]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.29-08.14.56:966][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002396s)
+[2017.05.29-08.14.56:967][776]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.29-08.14.56:967][776]LogPlayLevel: PIE: World Init took: (0.000771s)
+[2017.05.29-08.14.56:967][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003393s)
+[2017.05.29-08.14.57:001][776]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.29-08.14.57:009][776]LogInit: FAudioDevice initialized.
+[2017.05.29-08.14.57:053][776]LogLoad: Game class is 'MainMenuMode_C'
+[2017.05.29-08.14.57:055][776]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2017.05.29-10.14.57
+[2017.05.29-08.14.57:055][776]LogWorld: Bringing up level for play took: 0.001474
+[2017.05.29-08.14.57:065][776]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.633
+[2017.05.29-08.14.57:065][776]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.15.18:069][740]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.15.18:165][740]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.15.35:323][657]LogEditorViewport: Clicking on Actor (LMB): CameraActor (Camera3)
+[2017.05.29-08.16.15:775][307]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.29-08.16.33:160][975]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.29-08.16.33:557][975]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.16.33:557][975]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.29-08.16.33:557][975]PIE: New page: PIE session: Minimal_Default (May 29, 2017, 12:16:33 PM)
+[2017.05.29-08.16.33:557][975]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.29-08.16.33:559][975]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002388s)
+[2017.05.29-08.16.33:560][975]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.29-08.16.33:560][975]LogPlayLevel: PIE: World Init took: (0.000889s)
+[2017.05.29-08.16.33:561][975]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003474s)
+[2017.05.29-08.16.33:624][975]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.29-08.16.33:631][975]LogInit: FAudioDevice initialized.
+[2017.05.29-08.16.33:681][975]LogLoad: Game class is 'MainMenuMode_C'
+[2017.05.29-08.16.33:684][975]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2017.05.29-10.16.33
+[2017.05.29-08.16.33:685][975]LogWorld: Bringing up level for play took: 0.001408
+[2017.05.29-08.16.33:691][975]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.74
+[2017.05.29-08.16.33:691][975]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.16.44:571][422]LogRenderer: Reallocating scene render targets to support 1920x1016 NumSamples 1 (Frame:54848).
+[2017.05.29-08.17.19:808][621]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.17.20:006][621]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.17.23:942][743]LogMaterial: Missing cached shader map for material M_Sky_MainMenu, compiling. 
+[2017.05.29-08.17.23:943][743]LogTemp:Display: Added material ShaderMap 0x000000C5B7C58800 with Material 0x000000C5AB53EE80 to ShaderMapsBeingCompiled
+[2017.05.29-08.17.23:945][743]LogTemp:Display: Kicking off shader compilation for M_Sky_MainMenu, GameThreadShaderMap 0x000000C5B7C58800
+[2017.05.29-08.17.24:146][743]LogMaterial: Missing cached shader map for material M_Sky_MainMenu, compiling. 
+[2017.05.29-08.17.24:148][743]LogTemp:Display: Added material ShaderMap 0x000000C5B0611D00 with Material 0x000000C5AB53EE80 to ShaderMapsBeingCompiled
+[2017.05.29-08.17.24:154][743]LogTemp:Display: Kicking off shader compilation for M_Sky_MainMenu, GameThreadShaderMap 0x000000C5B0611D00
+[2017.05.29-08.17.24:154][743]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.17.24:182][743]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_12, compiling. 
+[2017.05.29-08.17.24:183][743]LogTemp:Display: Added material ShaderMap 0x000000C5B0610800 with Material 0x000000C5AE55EE00 to ShaderMapsBeingCompiled
+[2017.05.29-08.17.24:189][743]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_12, GameThreadShaderMap 0x000000C5B0610800
+[2017.05.29-08.17.24:198][743]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_13, compiling. 
+[2017.05.29-08.17.24:199][743]LogTemp:Display: Added material ShaderMap 0x000000C5FC75F580 with Material 0x000000C5AE55F400 to ShaderMapsBeingCompiled
+[2017.05.29-08.17.24:205][743]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_13, GameThreadShaderMap 0x000000C5FC75F580
+[2017.05.29-08.17.24:206][743]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_14, compiling. 
+[2017.05.29-08.17.24:207][743]LogTemp:Display: Added material ShaderMap 0x000000C5FC9D8800 with Material 0x000000C59918AB00 to ShaderMapsBeingCompiled
+[2017.05.29-08.17.24:209][743]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_14, GameThreadShaderMap 0x000000C5FC9D8800
+[2017.05.29-08.17.24:210][743]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_15, compiling. 
+[2017.05.29-08.17.24:211][743]LogTemp:Display: Added material ShaderMap 0x000000C5BABFF200 with Material 0x000000C599188100 to ShaderMapsBeingCompiled
+[2017.05.29-08.17.24:213][743]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_15, GameThreadShaderMap 0x000000C5BABFF200
+[2017.05.29-08.17.24:257][743]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_16, compiling. 
+[2017.05.29-08.17.24:258][743]LogTemp:Display: Added material ShaderMap 0x000000C5BABFDD00 with Material 0x000000C59918A500 to ShaderMapsBeingCompiled
+[2017.05.29-08.17.24:260][743]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_16, GameThreadShaderMap 0x000000C5BABFDD00
+[2017.05.29-08.17.24:262][743]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_17, compiling. 
+[2017.05.29-08.17.24:262][743]LogTemp:Display: Added material ShaderMap 0x000000C5BABFC800 with Material 0x000000C599189900 to ShaderMapsBeingCompiled
+[2017.05.29-08.17.24:265][743]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionVectorParameter_17, GameThreadShaderMap 0x000000C5BABFC800
+[2017.05.29-08.17.24:267][743]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2017.05.29-08.17.24:270][743]LogTemp:Display: Added material ShaderMap 0x000000C5FD9F2E80 with Material 0x000000C606EAD900 to ShaderMapsBeingCompiled
+[2017.05.29-08.17.24:273][743]LogTemp:Display: Kicking off shader compilation for FMatExpressionPreview MaterialExpressionTextureSample_5, GameThreadShaderMap 0x000000C5FD9F2E80
+[2017.05.29-08.17.25:893][783]LogTemp:Display: Finished compile of shader map 0x000000C5B0611D00
+[2017.05.29-08.17.25:893][783]LogTemp:Display: Shader map M_Sky_MainMenu complete, GameThreadShaderMap 0x000000C5B0611D00, marking material M_Sky_MainMenu as finished
+[2017.05.29-08.17.25:893][783]LogTemp:Display: Marking material as finished 0x000000C5AB53EE80
+[2017.05.29-08.17.25:926][784]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2017.05.29-08.17.25:926][784]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2017.05.29-08.17.25:926][784]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.29-08.17.26:312][795]LogTemp:Display: Finished compile of shader map 0x000000C5B0610800
+[2017.05.29-08.17.26:312][795]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_12 complete, GameThreadShaderMap 0x000000C5B0610800, marking material FMatExpressionPreview MaterialExpressionVectorParameter_12 as finished
+[2017.05.29-08.17.26:312][795]LogTemp:Display: Marking material as finished 0x000000C5AE55EE00
+[2017.05.29-08.17.26:533][803]LogTemp:Display: Finished compile of shader map 0x000000C5FC75F580
+[2017.05.29-08.17.26:533][803]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_13 complete, GameThreadShaderMap 0x000000C5FC75F580, marking material FMatExpressionPreview MaterialExpressionVectorParameter_13 as finished
+[2017.05.29-08.17.26:533][803]LogTemp:Display: Marking material as finished 0x000000C5AE55F400
+[2017.05.29-08.17.27:049][820]LogTemp:Display: Finished compile of shader map 0x000000C5FC9D8800
+[2017.05.29-08.17.27:049][820]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_14 complete, GameThreadShaderMap 0x000000C5FC9D8800, marking material FMatExpressionPreview MaterialExpressionVectorParameter_14 as finished
+[2017.05.29-08.17.27:049][820]LogTemp:Display: Marking material as finished 0x000000C59918AB00
+[2017.05.29-08.17.27:774][845]LogTemp:Display: Finished compile of shader map 0x000000C5BABFF200
+[2017.05.29-08.17.27:774][845]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_15 complete, GameThreadShaderMap 0x000000C5BABFF200, marking material FMatExpressionPreview MaterialExpressionVectorParameter_15 as finished
+[2017.05.29-08.17.27:774][845]LogTemp:Display: Marking material as finished 0x000000C599188100
+[2017.05.29-08.17.27:917][850]LogTemp:Display: Finished compile of shader map 0x000000C5BABFDD00
+[2017.05.29-08.17.27:918][850]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_16 complete, GameThreadShaderMap 0x000000C5BABFDD00, marking material FMatExpressionPreview MaterialExpressionVectorParameter_16 as finished
+[2017.05.29-08.17.27:918][850]LogTemp:Display: Marking material as finished 0x000000C59918A500
+[2017.05.29-08.17.28:507][868]LogTemp:Display: Finished compile of shader map 0x000000C5BABFC800
+[2017.05.29-08.17.28:507][868]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionVectorParameter_17 complete, GameThreadShaderMap 0x000000C5BABFC800, marking material FMatExpressionPreview MaterialExpressionVectorParameter_17 as finished
+[2017.05.29-08.17.28:507][868]LogTemp:Display: Marking material as finished 0x000000C599189900
+[2017.05.29-08.17.28:771][875]LogTemp:Display: Finished compile of shader map 0x000000C5FD9F2E80
+[2017.05.29-08.17.28:771][875]LogTemp:Display: Shader map FMatExpressionPreview MaterialExpressionTextureSample_5 complete, GameThreadShaderMap 0x000000C5FD9F2E80, marking material FMatExpressionPreview MaterialExpressionTextureSample_5 as finished
+[2017.05.29-08.17.28:771][875]LogTemp:Display: Marking material as finished 0x000000C606EAD900
+[2017.05.29-08.17.48:992][578]LogMaterial: Missing cached shader map for material M_Sky_MainMenu, compiling. 
+[2017.05.29-08.17.48:993][578]LogTemp:Display: Added material ShaderMap 0x000000C5C2275D00 with Material 0x000000C5AB53EE80 to ShaderMapsBeingCompiled
+[2017.05.29-08.17.48:996][578]LogTemp:Display: Kicking off shader compilation for M_Sky_MainMenu, GameThreadShaderMap 0x000000C5C2275D00
+[2017.05.29-08.17.48:997][578]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.17.50:050][613]LogTemp:Display: Finished compile of shader map 0x000000C5C2275D00
+[2017.05.29-08.17.50:050][613]LogTemp:Display: Shader map M_Sky_MainMenu complete, GameThreadShaderMap 0x000000C5C2275D00, marking material M_Sky_MainMenu as finished
+[2017.05.29-08.17.50:050][613]LogTemp:Display: Marking material as finished 0x000000C5AB53EE80
+[2017.05.29-08.17.50:081][614]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2017.05.29-08.17.50:081][614]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2017.05.29-08.17.50:081][614]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.29-08.17.55:856][806]LogMaterial: Missing cached shader map for material M_Sky_MainMenu, compiling. 
+[2017.05.29-08.17.55:857][806]LogTemp:Display: Added material ShaderMap 0x000000C5C2246400 with Material 0x000000C5AB53EE80 to ShaderMapsBeingCompiled
+[2017.05.29-08.17.55:860][806]LogTemp:Display: Kicking off shader compilation for M_Sky_MainMenu, GameThreadShaderMap 0x000000C5C2246400
+[2017.05.29-08.17.55:860][806]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.17.56:469][825]LogTemp:Display: Finished compile of shader map 0x000000C5C2246400
+[2017.05.29-08.17.56:469][825]LogTemp:Display: Shader map M_Sky_MainMenu complete, GameThreadShaderMap 0x000000C5C2246400, marking material M_Sky_MainMenu as finished
+[2017.05.29-08.17.56:469][825]LogTemp:Display: Marking material as finished 0x000000C5AB53EE80
+[2017.05.29-08.17.56:491][826]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2017.05.29-08.17.56:491][826]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2017.05.29-08.17.56:491][826]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.29-08.17.57:606][865]LogMaterialEditor: Saving and Compiling material M_Sky_MainMenu
+[2017.05.29-08.17.58:182][865]LogMaterial: Missing cached shader map for material M_Sky_MainMenu, compiling. 
+[2017.05.29-08.17.58:183][865]LogTemp:Display: Added material ShaderMap 0x000000C5C2244800 with Material 0x000000C5AB53EE80 to ShaderMapsBeingCompiled
+[2017.05.29-08.17.58:188][865]LogTemp:Display: Kicking off shader compilation for M_Sky_MainMenu, GameThreadShaderMap 0x000000C5C2244800
+[2017.05.29-08.17.58:188][865]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.17.58:274][865]LogMaterial: Missing cached shader map for material M_Sky_MainMenu, compiling. 
+[2017.05.29-08.17.58:276][865]LogTemp:Display: Added material ShaderMap 0x000000C5FC95B200 with Material 0x000000C5E6080B80 to ShaderMapsBeingCompiled
+[2017.05.29-08.17.58:286][865]LogTemp:Display: Kicking off shader compilation for M_Sky_MainMenu, GameThreadShaderMap 0x000000C5FC95B200
+[2017.05.29-08.17.58:291][865]LogMaterial: Missing cached shader map for material M_Sky_MainMenu, compiling. 
+[2017.05.29-08.17.58:292][865]LogTemp:Display: Added material ShaderMap 0x000000C5C2274480 with Material 0x000000C5E6080B80 to ShaderMapsBeingCompiled
+[2017.05.29-08.17.58:297][865]LogTemp:Display: Kicking off shader compilation for M_Sky_MainMenu, GameThreadShaderMap 0x000000C5C2274480
+[2017.05.29-08.17.58:297][865]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.17.58:358][865]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Sky_MainMenu, compiling. 
+[2017.05.29-08.17.58:359][865]LogTemp:Display: Added material ShaderMap 0x000000C5959E1600 with Material 0x000000C5C21B4700 to ShaderMapsBeingCompiled
+[2017.05.29-08.17.58:749][865]LogTemp:Display: Finished compile of shader map 0x000000C5959E1600
+[2017.05.29-08.17.58:749][865]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Sky_MainMenu complete, GameThreadShaderMap 0x000000C5959E1600, marking material FDebugViewModeMaterialProxy M_Sky_MainMenu as finished
+[2017.05.29-08.17.58:749][865]LogTemp:Display: Marking material as finished 0x000000C5C21B4700
+[2017.05.29-08.17.58:755][865]TextureStreamingBuild:Display: Compiling optional shaders took 0.404 seconds.
+[2017.05.29-08.17.59:383][865]LogTemp:Display: Finished compile of shader map 0x000000C5FC95B200
+[2017.05.29-08.17.59:383][865]LogTemp:Display: Shader map M_Sky_MainMenu complete, GameThreadShaderMap 0x000000C5FC95B200, marking material M_Sky_MainMenu as finished
+[2017.05.29-08.17.59:383][865]LogTemp:Display: Marking material as finished 0x000000C5E6080B80
+[2017.05.29-08.17.59:384][865]LogTemp:Display: Finished compile of shader map 0x000000C5C2274480
+[2017.05.29-08.17.59:384][865]LogTemp:Display: Shader map M_Sky_MainMenu complete, GameThreadShaderMap 0x000000C5C2274480, marking material M_Sky_MainMenu as finished
+[2017.05.29-08.17.59:384][865]LogTemp:Display: Marking material as finished 0x000000C5E6080B80
+[2017.05.29-08.17.59:388][865]LogTemp:Display: Finished compile of shader map 0x000000C5C2244800
+[2017.05.29-08.17.59:388][865]LogTemp:Display: Shader map M_Sky_MainMenu complete, GameThreadShaderMap 0x000000C5C2244800, marking material M_Sky_MainMenu as finished
+[2017.05.29-08.17.59:388][865]LogTemp:Display: Marking material as finished 0x000000C5AB53EE80
+[2017.05.29-08.17.59:431][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/M_Sky_MainMenu" FILE="../../../Engine/Content/EngineSky/M_Sky_MainMenu.uasset" SILENT=true
+[2017.05.29-08.17.59:481][865]LogSavePackage: Save=20.55ms
+[2017.05.29-08.17.59:481][865]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/M_Sky_MainMenu9E0330F840FC779697CF6AA3902FF1F8.tmp' to '../../../Engine/Content/EngineSky/M_Sky_MainMenu.uasset'
+[2017.05.29-08.17.59:484][865]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/EngineSky/M_Sky_MainMenu.uasset
+[2017.05.29-08.18.01:868][951]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.29-08.18.01:887][951]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.18.01:887][951]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.29-08.18.01:887][951]PIE: New page: PIE session: Minimal_Default (May 29, 2017, 12:18:01 PM)
+[2017.05.29-08.18.01:887][951]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.29-08.18.01:890][951]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003087s)
+[2017.05.29-08.18.01:891][951]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.29-08.18.01:891][951]LogPlayLevel: PIE: World Init took: (0.000944s)
+[2017.05.29-08.18.01:891][951]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.004312s)
+[2017.05.29-08.18.01:951][951]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.29-08.18.01:958][951]LogInit: FAudioDevice initialized.
+[2017.05.29-08.18.02:009][951]LogLoad: Game class is 'MainMenuMode_C'
+[2017.05.29-08.18.02:011][951]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2017.05.29-10.18.02
+[2017.05.29-08.18.02:011][951]LogWorld: Bringing up level for play took: 0.001205
+[2017.05.29-08.18.02:020][951]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.411
+[2017.05.29-08.18.02:021][951]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.18.11:132][317]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.18.11:323][317]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.18.20:022][548]LogMaterial: Missing cached shader map for material M_Sky_MainMenu, compiling. 
+[2017.05.29-08.18.20:024][548]LogTemp:Display: Added material ShaderMap 0x000000C5E8DD6080 with Material 0x000000C5AB53EE80 to ShaderMapsBeingCompiled
+[2017.05.29-08.18.20:028][548]LogTemp:Display: Kicking off shader compilation for M_Sky_MainMenu, GameThreadShaderMap 0x000000C5E8DD6080
+[2017.05.29-08.18.20:028][548]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.18.20:984][580]LogTemp:Display: Finished compile of shader map 0x000000C5E8DD6080
+[2017.05.29-08.18.20:984][580]LogTemp:Display: Shader map M_Sky_MainMenu complete, GameThreadShaderMap 0x000000C5E8DD6080, marking material M_Sky_MainMenu as finished
+[2017.05.29-08.18.20:984][580]LogTemp:Display: Marking material as finished 0x000000C5AB53EE80
+[2017.05.29-08.18.21:006][581]MaterialEditorStats: Info Base pass shader without light map: 44 instructions
+[2017.05.29-08.18.21:006][581]MaterialEditorStats: Info Vertex shader: 30 instructions
+[2017.05.29-08.18.21:006][581]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.05.29-08.18.21:408][594]LogMaterialEditor: Saving and Compiling material M_Sky_MainMenu
+[2017.05.29-08.18.22:021][594]LogMaterial: Missing cached shader map for material M_Sky_MainMenu, compiling. 
+[2017.05.29-08.18.22:022][594]LogTemp:Display: Added material ShaderMap 0x000000C5E8DD4F00 with Material 0x000000C5AB53EE80 to ShaderMapsBeingCompiled
+[2017.05.29-08.18.22:027][594]LogTemp:Display: Kicking off shader compilation for M_Sky_MainMenu, GameThreadShaderMap 0x000000C5E8DD4F00
+[2017.05.29-08.18.22:027][594]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.18.22:078][594]LogMaterial: Missing cached shader map for material M_Sky_MainMenu, compiling. 
+[2017.05.29-08.18.22:080][594]LogTemp:Display: Added material ShaderMap 0x000000C5C2245980 with Material 0x000000C5F9143B80 to ShaderMapsBeingCompiled
+[2017.05.29-08.18.22:090][594]LogTemp:Display: Kicking off shader compilation for M_Sky_MainMenu, GameThreadShaderMap 0x000000C5C2245980
+[2017.05.29-08.18.22:093][594]LogMaterial: Missing cached shader map for material M_Sky_MainMenu, compiling. 
+[2017.05.29-08.18.22:094][594]LogTemp:Display: Added material ShaderMap 0x000000C5B0654100 with Material 0x000000C5F9143B80 to ShaderMapsBeingCompiled
+[2017.05.29-08.18.22:101][594]LogTemp:Display: Kicking off shader compilation for M_Sky_MainMenu, GameThreadShaderMap 0x000000C5B0654100
+[2017.05.29-08.18.22:102][594]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.05.29-08.18.22:155][594]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Sky_MainMenu, compiling. 
+[2017.05.29-08.18.22:157][594]LogTemp:Display: Added material ShaderMap 0x000000C5807BBC80 with Material 0x000000C5C2322E00 to ShaderMapsBeingCompiled
+[2017.05.29-08.18.22:491][594]LogTemp:Display: Finished compile of shader map 0x000000C5807BBC80
+[2017.05.29-08.18.22:491][594]LogTemp:Display: Shader map FDebugViewModeMaterialProxy M_Sky_MainMenu complete, GameThreadShaderMap 0x000000C5807BBC80, marking material FDebugViewModeMaterialProxy M_Sky_MainMenu as finished
+[2017.05.29-08.18.22:491][594]LogTemp:Display: Marking material as finished 0x000000C5C2322E00
+[2017.05.29-08.18.22:495][594]TextureStreamingBuild:Display: Compiling optional shaders took 0.347 seconds.
+[2017.05.29-08.18.23:227][594]LogTemp:Display: Finished compile of shader map 0x000000C5C2245980
+[2017.05.29-08.18.23:227][594]LogTemp:Display: Shader map M_Sky_MainMenu complete, GameThreadShaderMap 0x000000C5C2245980, marking material M_Sky_MainMenu as finished
+[2017.05.29-08.18.23:227][594]LogTemp:Display: Marking material as finished 0x000000C5F9143B80
+[2017.05.29-08.18.23:227][594]LogTemp:Display: Finished compile of shader map 0x000000C5B0654100
+[2017.05.29-08.18.23:227][594]LogTemp:Display: Shader map M_Sky_MainMenu complete, GameThreadShaderMap 0x000000C5B0654100, marking material M_Sky_MainMenu as finished
+[2017.05.29-08.18.23:228][594]LogTemp:Display: Marking material as finished 0x000000C5F9143B80
+[2017.05.29-08.18.23:233][594]LogTemp:Display: Finished compile of shader map 0x000000C5E8DD4F00
+[2017.05.29-08.18.23:233][594]LogTemp:Display: Shader map M_Sky_MainMenu complete, GameThreadShaderMap 0x000000C5E8DD4F00, marking material M_Sky_MainMenu as finished
+[2017.05.29-08.18.23:233][594]LogTemp:Display: Marking material as finished 0x000000C5AB53EE80
+[2017.05.29-08.18.23:291][594]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/M_Sky_MainMenu" FILE="../../../Engine/Content/EngineSky/M_Sky_MainMenu.uasset" SILENT=true
+[2017.05.29-08.18.23:314][594]LogSavePackage: Save=19.17ms
+[2017.05.29-08.18.23:314][594]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/M_Sky_MainMenu7E2A0125419DB463936DCD860B05A9DE.tmp' to '../../../Engine/Content/EngineSky/M_Sky_MainMenu.uasset'
+[2017.05.29-08.18.23:318][594]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/EngineSky/M_Sky_MainMenu.uasset
+[2017.05.29-08.18.25:183][659]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.29-08.18.25:197][659]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.18.25:197][659]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.29-08.18.25:197][659]PIE: New page: PIE session: Minimal_Default (May 29, 2017, 12:18:25 PM)
+[2017.05.29-08.18.25:197][659]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.29-08.18.25:201][659]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004117s)
+[2017.05.29-08.18.25:204][659]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.29-08.18.25:205][659]LogPlayLevel: PIE: World Init took: (0.003232s)
+[2017.05.29-08.18.25:205][659]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.007956s)
+[2017.05.29-08.18.25:264][659]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.29-08.18.25:271][659]LogInit: FAudioDevice initialized.
+[2017.05.29-08.18.25:325][659]LogLoad: Game class is 'MainMenuMode_C'
+[2017.05.29-08.18.25:326][659]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2017.05.29-10.18.25
+[2017.05.29-08.18.25:326][659]LogWorld: Bringing up level for play took: 0.001243
+[2017.05.29-08.18.25:339][659]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 0.907
+[2017.05.29-08.18.25:339][659]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.19.07:934][454]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.19.08:095][454]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.19.28:360][193]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.29-08.19.30:405][269]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.05.29-08.19.51:448][ 21]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.05.29-08.19.51:473][ 21]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.19.51:473][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.05.29-08.19.51:473][ 21]PIE: New page: PIE session: Minimal_Default (May 29, 2017, 12:19:51 PM)
+[2017.05.29-08.19.51:473][ 21]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.05.29-08.19.51:476][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002634s)
+[2017.05.29-08.19.51:476][ 21]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.05.29-08.19.51:477][ 21]LogPlayLevel: PIE: World Init took: (0.000963s)
+[2017.05.29-08.19.51:477][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.003847s)
+[2017.05.29-08.19.51:541][ 21]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.05.29-08.19.51:549][ 21]LogInit: FAudioDevice initialized.
+[2017.05.29-08.19.51:600][ 21]LogLoad: Game class is 'MainMenuMode_C'
+[2017.05.29-08.19.51:602][ 21]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 60) at 2017.05.29-10.19.51
+[2017.05.29-08.19.51:602][ 21]LogWorld: Bringing up level for play took: 0.001464
+[2017.05.29-08.19.51:615][ 21]PIE: Info Play in editor start time for /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default -0.817
+[2017.05.29-08.19.51:615][ 21]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.20.15:770][  7]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.20.15:941][  7]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.05.29-08.23.17:890][813]LogSavePackage: Save=146.46ms
+[2017.05.29-08.23.17:890][813]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/Minimal_Default_Auto3AA37A0B24D1DE799B4CB4EB385E87A56.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2017.05.29-08.23.17:893][813]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap
+[2017.05.29-08.23.17:894][813]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.284
+[2017.05.29-08.23.17:894][813]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.284
+[2017.05.29-08.29.22:600][  4]Cmd: POLY SELECT ADJACENT WALLS
+[2017.05.29-08.29.26:602][134]LogSavePackage: Save=121.29ms
+[2017.05.29-08.29.26:602][134]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/Minimal_Default489B88B34FAA970E433977BC917FC4D5.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.05.29-08.29.26:605][134]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.05.29-08.29.26:711][134]LogSavePackage: Save=37.69ms
+[2017.05.29-08.29.26:711][134]LogSavePackage: Moving 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Saved/Minimal_Default_BuiltData8F1113064C1FF7C081E8308EA0647D75.tmp' to 'C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2017.05.29-08.29.26:712][134]LogSavePackage:Display: Finished SavePackage C:/Users/Dave/Desktop/School/Y2P4/Unreal Projects/NaturalisSPACE/Naturalis_MainMenu3D/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2017.05.29-09.18.08:043][309]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.29-09.18.08:543][309]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2017.05.29-09.18.08:706][309]LogD3D11RHI:Error: Result failed 
+ at D:\Build\++UE4+Release-4.15+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Query.cpp:134 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_RESET
+[2017.05.29-09.18.10:197][309]LogWindows: Windows GetLastError: The operation completed successfully. (0)
